@@ -15,6 +15,7 @@ permalink: /the-reads
 - [SHACL and ShEx in the Wild](https://kashif-rabbani.github.io/publications/validatingshapes.pdf){:target="_blank"}
 - [Adaptive Linked Data-driven Web Components](http://research.ld-r.org/papers/eswc2016_adaptive-linked-data-driven-web-components.pdf){:target="_blank"}
 - [Consent Through the Lens of Semantics](http://www.semantic-web-journal.net/system/files/swj2751.pdf){:target="_blank"}
+- [Semantic Web for the Working Ontologist](http://www.kevenlw.name/downloads/Ontologist.pdf){:target="_blank"}
 
 ## Have a LOD topic in mind or interesting papers to add? 
 Feel free to add them directly to [the-reads.md file](https://github.com/vliz-be-opsci/rtlp/blob/gh-pages/the-reads.markdown) or [let us know](mailto:opsci@vliz.be) and we'll add them for you!
