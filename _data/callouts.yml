@@ -1,0 +1,42 @@
+style: is-light
+height: is-medium
+items:
+  - title: What
+    subtitle: 
+    icon: fa-lightbulb
+    description: >
+      A LOD reading-club
+    call_to_action_name: More information
+    call_to_action_link: /about
+
+  - title: The Reads
+    subtitle: 
+    icon: fa-book
+    description: >
+      List of LOD papers
+    call_to_action_name: Discover
+    call_to_action_link: /the-reads
+
+  - title: When & Where
+    subtitle: 
+    icon: fa-calendar
+    description: >
+      Practical organization
+    call_to_action_name: Planning
+    call_to_action_link: /when-and-where
+
+  - title: Partners
+    subtitle: 
+    icon: fa-handshake
+    description: >
+      Contributing organizations
+    call_to_action_name: Check them out!
+    call_to_action_link: /partners
+
+  - title: Members
+    subtitle: 
+    icon: fa-user 
+    description: >
+      See who is involved
+    call_to_action_name: Check them out!
+    call_to_action_link: /members

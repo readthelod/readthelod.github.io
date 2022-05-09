@@ -1,0 +1,15 @@
+- sponsors:
+    - icon: fa-user 
+      actionname: Become a member!
+      actionlink: "https://forms.gle/dkh7WJH3SCNzhaWv6"
+      
+- tier_name: Members
+  description: 
+  size: small
+  sponsors:
+    - name: Marc Portier
+      affiliation: VLIZ
+      mail: marc.portier@vliz.be
+    - name: Laurian Van Maldeghem 
+      affiliation: VLIZ
+      mail: laurian.van.maldeghem@vliz.be
