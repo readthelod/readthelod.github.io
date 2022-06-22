@@ -1,12 +1,16 @@
 # Site settings
-title: Read-the-LOD-paper
-email: info@opsci.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A reading club for relevant contemporary Linked Open Data and Semantic Web documents.
-baseurl: "/rtlp" # the subpath of your site, e.g. /blog
-url: "https://vliz-be-opsci.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: vliz-be-opsci
+title: Read the LOD
+email: info@readthelod.org
+description: A reading club for relevant contemporary Linked Open Data and Semantic Web documents.
+baseurl: "" 
+url: "https:readthelod//.github.io/"
+github_username: readthelod
+
 fixed_navbar: top
+show_sidebar: true
+paginate: 5
+paginate_path: "/readingclubs/page:num"
+
 
 # Build settings
 #theme: bulma-clean-theme

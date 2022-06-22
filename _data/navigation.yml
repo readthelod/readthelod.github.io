@@ -3,10 +3,10 @@
   dropdown: 
     - name: About
       link: /about
-    - name: The reads
-      link: /the-reads
-    - name: When & Where
-      link: /when-and-where
+    - name: Reading list
+      link: /readinglist
+    - name: Reading clubs
+      link: /readingclubs
     - name: Partners
       link: /partners
     - name: Members

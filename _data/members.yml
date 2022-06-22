@@ -1,15 +1,16 @@
-- sponsors:
-    - icon: fa-user 
-      actionname: Become a member!
-      actionlink: "https://forms.gle/dkh7WJH3SCNzhaWv6"
-      
-- tier_name: Members
-  description: 
-  size: small
-  sponsors:
-    - name: Marc Portier
-      affiliation: VLIZ
-      mail: marc.portier@vliz.be
-    - name: Laurian Van Maldeghem 
-      affiliation: VLIZ
-      mail: laurian.van.maldeghem@vliz.be
+participant-type: Members
+description: 
+size: small
+
+actionname: Join us!
+icon: fa-user 
+actiondescr: Add yourself to members.yml
+actionlink: "https://github.com/readthelod/readthelod.github.io/_data/members.yml"
+
+participant-list:
+  - name: Marc Portier
+    affiliation: Flanders Marine Institute
+    mail: marc.portier@vliz.be
+  - name: Laurian Van Maldeghem 
+    affiliation: Flanders Marine Institute
+    mail: laurian.van.maldeghem@vliz.be

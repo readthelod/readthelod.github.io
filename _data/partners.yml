@@ -1,14 +1,14 @@
-- tier_name:
-  sponsors:
-    - icon: fa-handshake
-      title: Interested party?
-      actionname: Let us know! 
-      actionlink:  "mailto:opsci@vliz.be"
-      
-- tier_name:  
-  sponsors:
-    - name: Flanders Marine Institute
-      site: https://vliz.be
-      logo: assets/img/vliz_logo.png
-      
+participant-type: Partners
+description: 
+size: small 
 
+actionname: Interested party?
+icon: fa-handshake
+actiondescr: Let us know! 
+actionlink:  "mailto:info@readthelod.org"
+
+participant-list:
+  - name: Flanders Marine Institute
+    mail: info@vliz.be
+    site: https://vliz.be
+    logo: assets/img/vliz_logo.png
