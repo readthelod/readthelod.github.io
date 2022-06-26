@@ -1,0 +1,76 @@
+---
+layout: default
+show_sidebar: false
+---
+
+<div class="columns is-multiline">
+    <div class="column is-12">
+        <p class="title is-3 has-text-centered">
+            <span>Join us!</span>
+        </p>
+        <div class="columns is-centered">
+            <div class="column is-6 content has-text-centered">
+                <div class="icon callout-icon">
+                    <i class="fas fa-user fa-4x"></i>
+                </div>
+                <div class="content">
+                    <a href="https://github.com/readthelod/readthelod.github.io/_data/members.yml" class="button is-primary" target="_blank">Add yourself to members.yml</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="column is-12">
+        <p class="title is-3 has-text-centered">
+            <span>Members</span>
+        </p> 
+        <div class="columns is-multiline is-centered">           
+            {% for member in site.data.members %}
+            <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
+                <div class="box has-text-centered">
+                    <p class="title {% if tier.size == 'large' %} is-3 {% elsif tier.size == 'small' %} is-5 {% else %} is-4 {% endif %}">
+                        <img src={{ member.logo | relative_url }}>
+                    </p>
+                    <p class="title {% if tier.size == 'large' %} is-3 {% elsif tier.size == 'small' %} is-5 {% else %} is-4 {% endif %}">
+                        {{ member.name }}
+                    </p>
+                    <p class="subtitle {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
+                        {{ member.affiliation }}
+                    </p>
+                    {% if member.mail %}
+                    <p class=" {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
+                        <a href="mailto:{{ member.mail }}" class="is-link is-small" target="_blank">Contact</a>
+                    </p> 
+                    {% endif %}
+                        
+                    {% if member.site %}
+                    <p class=" {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">   
+                        <a href="{{ member.site }}" class="is-link is-small" target="_blank">Website</a>
+                    </p>               
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "{{ page.title }}",
+       
+        "member": [
+            {% for member in site.data.members %}
+            {
+            "@type": "Person",
+            "name": "{{ member.name }}",
+            "organization": "{{ member.affiliation }}",
+            "email": "{{ member.mail }}",
+            },
+            {%- endfor -%}
+        ]      
+    }
+</script>

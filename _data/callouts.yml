@@ -1,10 +1,10 @@
 style: is-light
 height: is-medium
 items:
-  - title: What
+  - title: What is it?
     subtitle: 
     icon: fa-lightbulb
-    description: LOD reading-clubs
+    description: About Read the LOD
     call_to_action_name: More information
     call_to_action_link: /about
 

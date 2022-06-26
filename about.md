@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About read-the-lod
+title: About
 permalink: /about
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: participants
+layout: partners
 title: Partners
 subtitle: The institutes making it all possible
 participant-type: partners

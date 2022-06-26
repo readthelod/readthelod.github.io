@@ -1,14 +1,4 @@
-participant-type: Partners
-description: 
-size: small 
-
-actionname: Interested party?
-icon: fa-handshake
-actiondescr: Let us know! 
-actionlink:  "mailto:info@readthelod.org"
-
-participant-list:
-  - name: Flanders Marine Institute
-    mail: info@vliz.be
-    site: https://vliz.be
-    logo: assets/img/vliz_logo.png
+- name: Flanders Marine Institute
+  mail: info@vliz.be
+  site: https://vliz.be
+  logo: assets/img/vliz_logo.png
