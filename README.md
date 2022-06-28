@@ -1,2 +1,3 @@
-This repo makes use of GitHub Actions to automatically deploy a Jekyll 4+ site to GitHub Pages; following this guide: 
-https://www.moncefbelyamani.com/making-github-pages-work-with-latest-jekyll
+## Read the LOD site
+
+Generated with [jekyll](https://jekyllrb.com/docs/) and using [bulma clean theme](https://github.com/chrisrhymes/bulma-clean-theme).
