@@ -2,18 +2,18 @@
 title: Read the LOD
 email: info@readthelod.org
 description: A reading club for relevant contemporary Linked Open Data and Semantic Web documents.
-baseurl: "/rtlp"
-url: "https://readthelod.github.io/"
+#baseurl: "/"
+#url: "https://readthelod.github.io/"
 github_username: readthelod
 
 fixed_navbar: top
 show_sidebar: true
 
 # Build settings
-#theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   #- jekyll-rdf
 # Exclude from processing.
 # exclude:
