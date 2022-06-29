@@ -85,7 +85,7 @@ PLATFORMS
 DEPENDENCIES
   bulma-clean-theme (~> 0.13.1)
   http_parser.rb (~> 0.6.0)
-  jekyll
+  jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
   jekyll-remote-theme
   tzinfo (~> 1.2)
