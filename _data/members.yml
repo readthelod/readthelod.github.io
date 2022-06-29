@@ -1,11 +1,15 @@
-- name: Example person 1
-  affiliation: Interesting Institute
-  mail: person@institute.be
+- name: Aad Versteden
+  affiliation: redpencil
+  mail: aad.versteden@redpencil.io
 
-- name: Example person 2 
-  affiliation: Flanders Marine Institute
-  mail: laurian.van.maldeghem@vliz.be
-  
-- name: Example person 2 
-  affiliation: Flanders Marine Institute
+- name: Niels Vandekeybus
+  affiliation: redpencil
+  mail: niels.vandekeybus@redpencil.io
+
+- name: Marc Portier
+  affiliation: VLIZ
+  mail: marc.portier@vliz.be
+
+- name: Laurian Van Maldeghem
+  affiliation: VLIZ
   mail: laurian.van.maldeghem@vliz.be

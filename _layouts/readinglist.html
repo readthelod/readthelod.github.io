@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign data = site.data.reading-list %}
-
 <div class="columns is-multiline">
     <table class="table table-striped">
         <thead>
@@ -16,7 +14,7 @@ layout: default
             </tr>
         </thead>
         <tbody>
-        {% for paper in data.reading-list %}
+        {% for paper in site.data.reading-list %}
         <tr>
             <th scope="row">{{forloop.index}}</th>
             <td><a href="{{paper.url }}" target="_blank">{{paper.title}}</a></td>
@@ -36,12 +34,12 @@ layout: default
 
     <div class="column is-12">
         <p class="title is-4">
-            <span>{{ data.actionname }}</span>
+            <span>Interesting papers to add?</span>
         </p>
         <div class="columns">
             <div class="column is-6 content">
                 <div class="content">
-                    <a href="{{ data.actionlink | relative_url }}" class="button is-primary" target="_blank">{{ data.actiondescr }}</a>
+                    <a href="https://github.com/readthelod/readthelod.github.io/blob/main/_data/reading-list.yml" class="button is-primary" target="_blank">Add them to reading-list.yml</a>
                 </div>
                 <figure class="image {{ sponsor.logo_ratio | default: is-16by9 }}">
                     <img src={{ sponsor.logo | relative_url }}>
@@ -56,16 +54,17 @@ layout: default
     {
         "@context": "https://schema.org/",
         "@type": "Collection",
+        "@id": "https://readthelod.github.io/readinglist/#reading-list",
         "name": "{{ page.title }}",
         "collectionSize": "{{ data.reading-list | size }}",
         "hasPart": [
-            {%- for article in data.reading-list -%}
+            {%- for article in site.data.reading-list -%}
             {
             "@type": "ScholarlyArticle",
-            "name": "{{ participant.name }}",
+            "name": "{{ article.authors }}",
             "url": "{{ article.url }}",
-            {%- if participant.keywords -%}
-            "keywords": "{{ participant.keywords }}",
+            {%- if article.keywords -%}
+            "keywords": "{{ article.keywords }}",
             {%- endif -%}
             },
             {%- endfor -%}

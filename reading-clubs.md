@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Reading clubs
-subtitle: practical organization of future reading clubs 
+subtitle: When & where
 permalink: /readingclubs
 ---
 
-**Further information will become available soon!**
+## The practical organization of reading clubs
+
+The First reading club is planned for September 2022. More information will become available soon!

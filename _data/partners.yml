@@ -1,4 +1,7 @@
+- name: redpencil
+  site: https://redpencil.io/
+  logo: assets/img/rpio-logo.svg
+
 - name: Flanders Marine Institute
-  mail: info@vliz.be
   site: https://vliz.be
   logo: assets/img/vliz_logo.png

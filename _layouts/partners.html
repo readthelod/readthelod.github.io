@@ -16,9 +16,7 @@ show_sidebar: false
                 <div class="content">
                     <a href="mailto:info@readthelod.org" class="button is-primary" target="_blank">Let us know!</a>
                 </div>
-                <figure class="image {{ sponsor.logo_ratio | default: is-16by9 }}">
-                    <img src={{ sponsor.logo | relative_url }}>
-                </figure>
+                <br>
             </div>
         </div>
     </div>
@@ -28,7 +26,7 @@ show_sidebar: false
             <span>Partners</span>
         </p> 
         <div class="columns is-multiline is-centered">           
-            {% for partner in data.partners %}
+            {% for partner in site.data.partners %}
             <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
                 <div class="box has-text-centered">
                     <p class="title {% if tier.size == 'large' %} is-3 {% elsif tier.size == 'small' %} is-5 {% else %} is-4 {% endif %}">
@@ -48,7 +46,7 @@ show_sidebar: false
                         
                     {% if partner.site %}
                     <p class=" {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">   
-                        <a href="{{ partner.site }}" class="is-link is-small" target="_blank">Website</a>
+                        <a href="{{ partner.site }}" class="is-link is-small" target="_blank">Homepage</a>
                     </p>               
                     {% endif %}
                 </div>
@@ -63,10 +61,11 @@ show_sidebar: false
     {
         "@context": "https://schema.org/",
         "@type": "Organization",
+        "@id": "https://readthelod.github.io/partners/#partners",
         "name": "{{ page.title }}",
        
         "member": [
-            {% for partner in data.partners %}
+            {% for partner in site.data.partners %}
             {
             "@type": "Organization",
             "name": "{{ partner.name | jsonify }}",
