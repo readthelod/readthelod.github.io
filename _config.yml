@@ -8,10 +8,12 @@ github_username: readthelod
 
 fixed_navbar: top
 show_sidebar: true
+favicon: ./assets/img/rtlp_logo.svg
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-remote-theme
   #- jekyll-rdf
