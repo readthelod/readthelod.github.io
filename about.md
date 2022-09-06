@@ -15,8 +15,8 @@ Read the LOD is a grassroots LOD initiative that organizes reading-and-discussio
 
 #### Where, when and what?
 
-The location and date of reading clubs, together with their specific topic, gets determined through polls on the [ReadtheLOD chat channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works).  
-Other updates (such as reports, etc.) will be communicated to our members.  
-Be sure to register as a [member](https://readthelod.org/members), and keep an eye out for updates on our chat channel!
+Check out our [ReadtheLOD chat channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works) to find out more about the next reading club!
+Polls will be posted on here to determine the topic and date of the next reading club.  
+You can also sign up as a [member](https://readthelod.org/members) to get notified about new polls and receive reading club notes.
 
-More information is available [here](https://readthelod.org/readingclubs).
+More information on the planning of reading clubs is available [here](https://readthelod.org/readingclubs).

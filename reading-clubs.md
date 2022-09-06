@@ -5,14 +5,12 @@ subtitle: When & where
 permalink: /readingclubs
 ---
 
-## Planning of the next reading club
+### Planning timeline of the next reading club
 
-1. Be sure to be registered to get notified about new reading clubs.
-2. Check out the [ReadtheLOD chat channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works) for polls to determine the date and topic of the next reading club.
-3. Vote for your preferred paper as a topic.
-4. And vote for dates on which you are available.
-5. Polls will remain open for voting until the 15th of the month.
+- Polls to determine the topic and date of the next reading club become available on our [ReadtheLOD chat channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works) around the 15th of the month. These will remain open for 2 weeks.
+- The date is aimed to be set somewhere between 4-6 weeks following these polls.
+- And reading club notes are aimed to become available in the 2 weeks following the reading club.
 
-### First Reading Club
+#### First Reading club
 
-The first reading club will be held at Flander Marine Institute in October! And polls to determine the topic and date will become available shortly!
+The polls to plan the first reading club will become available on the **15th of September**. Be sure to vote for your preferences!
