@@ -61,12 +61,12 @@
   url: https://www.wikidata.org/wiki/File:WDQS_Backend_Alternatives_working_paper.pdf
   keywords:
   
-  - title: Linked Data Notifications: A Resource-Centric Communication Protocol
+- title: Linked Data Notifications: A Resource-Centric Communication Protocol
   authors: Sarven Capadisli, Amy Guy, Christoph Lange, Sören Auer, Andrei Sambra & Tim Berners-Lee 
   url: https://link.springer.com/chapter/10.1007/978-3-319-58068-5_33
   keywords: Communications protocol, Decentralisation, Linked Data, Social Web
   
-  - title: Packaging research artefacts with RO-Crate
+- title: Packaging research artefacts with RO-Crate
   authors: Soiland-Reyes, Stian, et al.
   url: https://doi.org/10.5281/zenodo.5744421
   keywords: Data publishing, data packaging, FAIR, Linked Data, metadata, reproducibility, research object
