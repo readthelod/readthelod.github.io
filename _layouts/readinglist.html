@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign allpapers = site.data.reading-list %}
+{% assign todopapers = allpapers | where_exp: "paper", "paper.readingclub == nil" %} 
+{% assign donepapers = allpapers | where_exp: "paper", "paper.readingclub != nil" %} 
+
 <div class="columns is-multiline">
     <table class="table table-striped">
         <thead>
@@ -14,7 +18,7 @@ layout: default
             </tr>
         </thead>
         <tbody>
-        {% for paper in site.data.reading-list %}
+{% for paper in todopapers %}
         <tr>
             <th scope="row">{{forloop.index}}</th>
             <td><a href="{{paper.url }}" target="_blank">{{paper.title}}</a></td>
@@ -28,7 +32,7 @@ layout: default
                 </ol> 
             </td>            
         </tr>
-        {% endfor %}
+{% endfor %}
         </tbody>
     </table>
 
@@ -56,18 +60,18 @@ layout: default
         "@type": "Collection",
         "@id": "https://readthelod.org/readinglist/#reading-list",
         "name": "{{ page.title }}",
-        "collectionSize": "{{ data.reading-list | size }}",
+        "collectionSize": "{{ allpapers | size }}",
         "hasPart": [
-            {%- for article in site.data.reading-list -%}
+{%- for article in allpapers -%}
             {
             "@type": "ScholarlyArticle",
             "name": "{{ article.authors }}",
             "url": "{{ article.url }}",
-            {%- if article.keywords -%}
+    {%- if article.keywords -%}
             "keywords": "{{ article.keywords }}",
-            {%- endif -%}
+    {%- endif -%}
             },
-            {%- endfor -%}
+{%- endfor -%}
         ]      
    
     }
