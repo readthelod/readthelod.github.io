@@ -11,12 +11,6 @@ permalink: /readingclubs
 - The date is aimed to be set somewhere between 4-6 weeks following these polls.
 - And reading club notes are aimed to become available in the 2 weeks following the reading club.
 
-#### Join our mailing list! 
-Sign up to receive the latest updates on polls, meetings, and announcements.
-Subscribe to our newsletter by emailing: news@readthelod.org 
-
-
-
 #### Next Reading club
 
 Next reading club meeting to be announced after polling [our channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works) for the paper-vote and aggreed date in the week of Feb 6th 2023
@@ -30,3 +24,7 @@ Next reading club meeting to be announced after polling [our channel](https://ch
 | [2022-11-22](/readingclubs/20221122-is-the-lod-cloud-at-risk-of-becoming-a-museum-for-datasets) | [VLIZ]((https://vliz.be/nl/hoe-vliz-bereiken)) | [Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud" by Jeremy Debattista et al.](https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud) | 
 
 
+
+#### Join our mailing list! 
+Sign up to receive the latest updates on polls, meetings, and announcements.
+Subscribe to our newsletter by emailing: news@readthelod.org 
