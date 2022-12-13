@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reading clubs
+title: 📖 Reading clubs
 subtitle: When & where
 permalink: /readingclubs
 ---
