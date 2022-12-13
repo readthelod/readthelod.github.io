@@ -27,4 +27,4 @@ Next reading club meeting to be announced after polling [our channel](https://ch
 
 #### Join our mailing list! 
 Sign up to receive the latest updates on polls, meetings, and announcements.
-Subscribe to our newsletter by emailing: news@readthelod.org 
+Subscribe to our newsletter by emailing: <news@readthelod.org>
