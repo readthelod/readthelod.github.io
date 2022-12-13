@@ -17,7 +17,7 @@ Next reading club meeting to be announced after polling [our channel](https://ch
 
 
 
-#### Previous Reading Clubs
+#### Previous Reading Clubs 📚
 
 | date       | location      | paper                    | 
 |------------|---------------|--------------------------|
