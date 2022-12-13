@@ -11,7 +11,7 @@ permalink: /readingclubs
 - The date is aimed to be set somewhere between 4-6 weeks following these polls.
 - And reading club notes are aimed to become available in the 2 weeks following the reading club.
 
-#### Next Reading club
+#### Next Reading club 📕
 
 Next reading club meeting to be announced after polling [our channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works) for the paper-vote and aggreed date in the week of Feb 6th 2023
 
@@ -25,6 +25,6 @@ Next reading club meeting to be announced after polling [our channel](https://ch
 
 
 
-#### Join our mailing list! 
- 📢:loudspeaker: Sign up to receive the latest updates on polls, meetings, and announcements.
+#### Join our mailing list! 📢
+Sign up to receive the latest updates on polls, meetings, and announcements.
 Subscribe to our newsletter by emailing: <news@readthelod.org>
