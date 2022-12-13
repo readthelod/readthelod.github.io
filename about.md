@@ -4,7 +4,7 @@ title: 💡 About
 permalink: /about
 ---
 
- ## Read the LOD is a grassroots LOD initiative that organizes reading-and-discussion clubs around relevant contemporary Linked Data and Semantic Web documents.
+#### Read the LOD is a grassroots LOD initiative that organizes reading-and-discussion clubs around relevant contemporary Linked Data and Semantic Web documents.
 
 #### Why?
 
