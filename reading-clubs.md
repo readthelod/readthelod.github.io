@@ -13,7 +13,8 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-Next reading club meeting to be announced after polling [our channel](https://chat.semantic.works/#/room/#readthelod:chat.semantic.works) for the paper-vote and aggreed date in the week of Feb 6th 2023
+Join us for our next reading club on Monday February 13th from 14:00-17:00
+Location: online - TBD 
 
 
 
