@@ -14,7 +14,9 @@ permalink: /readingclubs
 #### Next Reading club 📕
 
 Join us for our next reading club on Monday February 13th from 14:00-17:00
-Location: online - TBD 
+> Location: online - TBD 
+> Paper: Linked Data Notifications: [A Resource-Centric Communication Protocol authors: Sarven Capadisli] (https://link.springer.com/chapter/10.1007/978-3-319-58068-5_33)
+
 
 
 
@@ -28,4 +30,4 @@ Location: online - TBD
 
 #### Join our mailing list! 📢
 Sign up to receive the latest updates on polls, meetings, and announcements.
-Subscribe to our newsletter by emailing: <news-subscribe@readthelod.org>
+> Subscribe to our newsletter by emailing: <news-subscribe@readthelod.org>
