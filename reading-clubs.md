@@ -17,7 +17,7 @@ Join us for our next reading club on **Monday February 13th from 14:00-17:00**
 
 | **Paper**: Linked Data Notifications: A Resource-Centric Communication Protocol authors: Sarven Capadisli
 |**Location**: online - TBD 
-| **Meeting minutes**: [2023-02-13] (https://hackmd.io/uLi-KyPKSGKgAhyOcGd3mQ)
+| **Meeting minutes**: [2023-02-13](https://hackmd.io/uLi-KyPKSGKgAhyOcGd3mQ)
 
 
 
