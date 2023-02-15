@@ -27,7 +27,7 @@ Join us for our next reading club on **Monday February 13th from 14:00-17:00**
 | date       | location      | paper                    | 
 |------------|---------------|--------------------------|
 | [2022-11-22](/readingclubs/20221122-is-the-lod-cloud-at-risk-of-becoming-a-museum-for-datasets) | [VLIZ]((https://vliz.be/nl/hoe-vliz-bereiken)) | [Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud" by Jeremy Debattista et al.](https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud) | 
-| [2023-02-13](/readingclubs/ReadtheLOD%202023-02-13) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) |  [Linked Data Notifications: A Resource-Centric Communication Protocol, Sarven Capadisli et al.](https://link.springer.com/chapter/10.1007/978-3-319-58068-5_33) | 
+| [2023-02-13](/readingclubs/ReadtheLOD%202023-02-13.html) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) |  [Linked Data Notifications: A Resource-Centric Communication Protocol, Sarven Capadisli et al.](https://link.springer.com/chapter/10.1007/978-3-319-58068-5_33) | 
 
 
 
