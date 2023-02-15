@@ -13,11 +13,13 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-Join us for our next reading club on **Monday February 13th from 14:00-17:00**
+Join us for our next reading club on **after Easter holiday (April 20th)**
 
-| **Paper**: [Linked Data Notifications: A Resource-Centric Communication Protocol, Sarven Capadisli et al.](https://link.springer.com/chapter/10.1007/978-3-319-58068-5_33)
+| **Paper**: TBD
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
-| **Meeting minutes**: [2023-02-13](https://hackmd.io/uLi-KyPKSGKgAhyOcGd3mQ)
+| **Meeting minutes**: [2023-04-20]([https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ]
+
+
 
 
 
