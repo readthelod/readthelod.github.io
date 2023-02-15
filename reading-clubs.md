@@ -17,7 +17,7 @@ Join us for our next reading club on **after Easter holiday (April 20th)**
 
 | **Paper**: TBD
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
-| **Meeting minutes**: [2023-04-20]([https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ]
+| **Meeting minutes**: [2023-04-20](https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ)
 
 
 
