@@ -13,7 +13,7 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-Join us for our next reading club on **after Easter holiday (April 20th)**
+Join us for our next reading club **after Easter holiday (April 20th)**
 
 | **Paper**: TBD
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
