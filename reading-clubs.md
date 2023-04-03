@@ -13,9 +13,9 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-Join us for our next reading club **after Easter holiday (April 20th)**
+Join us for our next reading club **April 24th**
 
-| **Paper**: TBD
+| **Paper**: [Are We Better Off With Just One Ontology on the Web? by Haller et al.](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fsemantic-web-journal.net%2Fsystem%2Ffiles%2Fswj2307.pdf)
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
 | **Meeting minutes**: [2023-04-20](https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ)
 
