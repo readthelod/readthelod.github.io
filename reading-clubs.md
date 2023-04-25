@@ -15,10 +15,9 @@ permalink: /readingclubs
 
 Join us for our next reading club **TBD**
 
-| **Paper**: Are We Better Off With Just One Ontology on the Web? by Haller et al.
+| **Paper**: TBD
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
-| **Meeting minutes**: [2023-04-20](https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ)
-
+| **Meeting minutes**: TBD
 
 
 
