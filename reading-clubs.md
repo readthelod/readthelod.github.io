@@ -17,7 +17,7 @@ Join us for our next reading club **TBD**
 
 | **Paper**: TBD
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
-| **Meeting minutes**: TBD
+| **Meeting minutes**: [2023-04-20](https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ)
 
 
 
@@ -29,7 +29,7 @@ Join us for our next reading club **TBD**
 |------------|---------------|--------------------------|
 | [2022-11-22](/readingclubs/20221122-is-the-lod-cloud-at-risk-of-becoming-a-museum-for-datasets) | [VLIZ]((https://vliz.be/nl/hoe-vliz-bereiken)) | [Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud" by Jeremy Debattista et al.](https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud) | 
 | [2023-02-13](/readingclubs/ReadtheLOD%202023-02-13) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) |  [Linked Data Notifications: A Resource-Centric Communication Protocol, Sarven Capadisli et al.](https://csarven.ca/linked-data-notifications#i-20161219125430) | 
-| [2023-04-20](https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) | Are We Better Off With Just One Ontology on the Web? by Haller et al. |
+| [2023-04-20](/readingclubs/2023-04-24) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) | Are We Better Off With Just One Ontology on the Web? by Haller et al. |
 
 
 #### Join our mailing list! 📢
