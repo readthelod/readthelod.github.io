@@ -46,10 +46,10 @@
   url: http://www.kevenlw.name/downloads/Ontologist.pdf
   keywords:
 
-- title: Are We Better Off With Just One Ontology on the Web?
-  authors: Haller et al.
-  url: http://semantic-web-journal.net/system/files/swj2307.pdf
-  keywords:
+- title: Study on the readiness of research data and literature repositories to facilitate compliance with the Open Science Horizon Europe MGA requirements
+  authors: Jahn et al.
+  url: https://zenodo.org/record/7728016#.ZEoUns5ByUk
+  keywords: repoitories, trusted repository, open science, open access, Horizon Europe 
 
 - title: Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud
   authors: Jeremy Debattista et al.
