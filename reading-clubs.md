@@ -17,7 +17,7 @@ Join us for our next reading club **TBD**
 
 | **Paper**: TBD
 |**Location**: MsTeams (please email <news@readthelod.org> for registration) 
-| **Meeting minutes**: [2023-04-20](https://hackmd.io/k_xx374UQ9GKQHgOMgEVUQ)
+| **Meeting minutes**: [2023-MM-DD](https://hackmd.io/KhFA-PiIT36CZNVi0P3LhA)
 
 
 
