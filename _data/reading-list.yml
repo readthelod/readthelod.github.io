@@ -72,5 +72,10 @@
 - title: "Linked Spatial Data: Beyond The Linked Open Data Cloud"
   authors: Chaidir Adlan
   url:
-  keywords: SDI (Spatial Data Infrastructure), Semantic Web, Geospatial Semantics, Linked Open Data,
+  keywords: SDI (Spatial Data Infrastructure), Semantic Web, Geospatial Semantics, Linked Open Data
+
+- title: "Reminiscing About 15 Years of Interoperability Efforts"
+  authors: Van de Sompel, Herbert, and Michael L. Nelson
+  url: http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html
+  keywords: 
   
