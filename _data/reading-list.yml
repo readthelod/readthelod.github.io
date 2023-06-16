@@ -69,22 +69,3 @@
   url: 
   keywords: Data publishing, data packaging, FAIR, Linked Data, metadata, reproducibility, research object
   
-- title: "Linked Spatial Data: Beyond The Linked Open Data Cloud"
-  authors: Chaidir Adlan
-  url:
-  keywords: SDI (Spatial Data Infrastructure), Semantic Web, Geospatial Semantics, Linked Open Data
-
-- title: "Reminiscing About 15 Years of Interoperability Efforts"
-  authors: Van de Sompel, Herbert, and Michael L. Nelson
-  url: http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html
-  keywords: 
-  
-- title: Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud
-  authors: Jeremy Debattista et al.
-  url: https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud
-  keywords: Linked Data, LOD cloud, metadata quality, data quality, sustainable services
-  
-- title: Where big data meets linked data: Applying standard data models to environmental data streams
-  authors: Adam Leadbetter et al.
-  url: https://ieeexplore.ieee.org/document/7840943
-  keywords: Linked Data, big data, steaming data, oceano-graphic data managment, Earth Science Informatics
