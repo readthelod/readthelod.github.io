@@ -69,12 +69,12 @@
   url: 
   keywords: Data publishing, data packaging, FAIR, Linked Data, metadata, reproducibility, research object
   
-  - title: "Reminiscing About 15 Years of Interoperability Efforts"
+- title: Reminiscing About 15 Years of Interoperability Efforts
   authors: Van de Sompel, Herbert, and Michael L. Nelson
   url: http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html
   keywords: 
   
-  - title: Where big data meets linked data: Applying standard data models to environmental data streams
+- title: Where big data meets linked data: Applying standard data models to environmental data streams
   authors: Adam Leadbetter et al.
   url: https://ieeexplore.ieee.org/document/7840943
   keywords: Linked Data, big data, steaming data, oceano-graphic data managment, Earth Science Informatics
