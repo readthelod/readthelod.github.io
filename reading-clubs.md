@@ -26,7 +26,7 @@ Here are the details of the sessions:
 **Ro-Crate Specification** 
 - **July 24th (14:00 - 17:00)** 
 - Paper: [Packaging re-search artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/)
-- Where: MsTeams (please email <news@readthelod.org> for registration)  
+- Where: MsTeams (please email <info@readthelod.org> for registration)  
 - Special guest: Stian Soiland-Reyes 
 - Meeting Minutes: [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
 
