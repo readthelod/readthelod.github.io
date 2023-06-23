@@ -13,7 +13,7 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-We are thrilled to announce our return after a brief hiatus! During this time, we have been diligently working behind the scenes to bring you Read The LOD-Summer-of-Linked-Research-Data! We are delighted to inform you that we have secured the participation of not one, but **TWO** exceptional guests to join us. 
+We are thrilled to announce our return after a brief hiatus! During this time, we have been diligently working behind the scenes to bring you **Read The LOD-Summer-of-Linked-Research-Data**! We are delighted to inform you that we have secured the participation of not one, but **TWO** exceptional guests to join us. 
 
   
 
