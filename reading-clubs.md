@@ -13,11 +13,25 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-Join us for our next reading club **TBD**
+We are thrilled to announce our return after a brief hiatus! During this time, we have been diligently working behind the scenes to bring you Read The LOD-Summer-of-Linked-Research-Data! We are delighted to inform you that we have secured the participation of not one, but **TWO** exceptional guests to join us.
 
-| **Paper**: TBD
-|**Location**: MsTeams (please email <news@readthelod.org> for registration) 
-| **Meeting minutes**: [2023-MM-DD](https://hackmd.io/KhFA-PiIT36CZNVi0P3LhA)
+In our upcoming summer sessions, we will delve into the practical application of LOD in the realm of research data and metadata. These sessions are designed to provide you with valuable insights and knowledge that you can directly apply to your work.
+
+Here are the details of the sessions:
+| **Ro-Crate Specification**
+| Paper: [Packaging research artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/)
+| **July 24th (14:00 - 17:00)**
+| Where: MsTeams (please email <news@readthelod.org> for registration) 
+| Special guest: Stian Soiland-Reyes
+| [2023-07-24](https://hackmd.io/KhFA-PiIT36CZNVi0P3LhA)
+
+
+**Fair Signposting **
+| Paper: [Reminiscing About 15 Years of Interoperability Efforts)](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html)
+| **August 21st (14:00 - 17:00)**
+| Where: MsTeams (please email <news@readthelod.org> for registration) 
+| Special guest: Herbert Van de Sompel
+
 
 
 
