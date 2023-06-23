@@ -15,23 +15,25 @@ permalink: /readingclubs
 
 We are thrilled to announce our return after a brief hiatus! During this time, we have been diligently working behind the scenes to bring you Read The LOD-Summer-of-Linked-Research-Data! We are delighted to inform you that we have secured the participation of not one, but **TWO** exceptional guests to join us. 
 
+  
 
 In our upcoming summer sessions, we will delve into the practical application of LOD in the realm of research data and metadata. These sessions are designed to provide you with valuable insights and knowledge that you can directly apply to your work. 
 
+  
 
 Here are the details of the sessions: 
 
-| **Ro-Crate Specification** 
+**Ro-Crate Specification** 
+**July 24th (14:00 - 17:00)** 
+Where: MsTeams (please email <news@readthelod.org> for registration)  
+Special guest: Stian Soiland-Reyes 
+Meeting Minutes: [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
 
-| Paper: [Packaging research artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/) 
-
-| **July 24th (14:00 - 17:00)** 
-
-| Where: MsTeams (please email <news@readthelod.org> for registration)  
-
-| Special guest: Stian Soiland-Reyes 
-
-| [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
+**Fair Signposting**
+**August 21st (14:00 - 17:00)**
+Paper: [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html) 
+Where: MS Teams
+Special guest: Herbert Van de Sompel
 
 #### Previous Reading Clubs 📚
 
@@ -43,4 +45,4 @@ Here are the details of the sessions:
 
 
 #### Join our mailing list! 📢
-Sign up to receive the latest updates on polls, meetings, and announcements. Subscribe to our newsletter by emailing: <news-subscribe@readthelod.org>
+Sign up to receive the latest updates on polls, meetings, and announcements. Subscribe to our newsletter by emailing: <news-subscribe@readthelod.org> or for more information <info@readthelod.org>
