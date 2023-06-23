@@ -24,16 +24,16 @@ In our upcoming summer sessions, we will delve into the practical application of
 Here are the details of the sessions: 
 
 **Ro-Crate Specification** 
-**July 24th (14:00 - 17:00)** 
-Where: MsTeams (please email <news@readthelod.org> for registration)  
-Special guest: Stian Soiland-Reyes 
-Meeting Minutes: [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
+- **July 24th (14:00 - 17:00)** 
+- Where: MsTeams (please email <news@readthelod.org> for registration)  
+- Special guest: Stian Soiland-Reyes 
+- Meeting Minutes: [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
 
 **Fair Signposting**
-**August 21st (14:00 - 17:00)**
-Paper: [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html) 
-Where: MS Teams
-Special guest: Herbert Van de Sompel
+- **August 21st (14:00 - 17:00)**
+- Paper: [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html) 
+- Where: MS Teams
+- Special guest: Herbert Van de Sompel
 
 #### Previous Reading Clubs 📚
 
