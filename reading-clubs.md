@@ -23,7 +23,7 @@ Here are the details of the sessions:
 | **July 24th (14:00 - 17:00)**
 | Where: MsTeams (please email <news@readthelod.org> for registration) 
 | Special guest: Stian Soiland-Reyes
-| [2023-07-24](https://hackmd.io/KhFA-PiIT36CZNVi0P3LhA)
+| [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw)
 
 
 **Fair Signposting **
