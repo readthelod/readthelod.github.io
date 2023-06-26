@@ -27,14 +27,14 @@ Here are the details of the sessions:
 - **July 24th (14:00 - 17:00)** 
 - Paper: [Packaging re-search artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/)
 - Where: MsTeams (please email <info@readthelod.org> for registration)  
-- Special guest: Stian Soiland-Reyes 
+- Special guest: **Stian Soiland-Reyes** 
 - Meeting Minutes: [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
 
 **Fair Signposting**
 - **August 21st (14:00 - 17:00)**
 - Paper: [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html) 
-- Where: MS Teams
-- Special guest: Herbert Van de Sompel
+- Where: MS Teams (please email <info@readthelod.org> for registration)  
+- Special guest: **Herbert Van de Sompel**
 
 #### Previous Reading Clubs 📚
 
