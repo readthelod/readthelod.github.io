@@ -24,14 +24,14 @@ In our upcoming summer sessions, we will delve into the practical application of
 Here are the details of the sessions: 
 
 **Ro-Crate Specification** 
-- :pushpin: **July 24th (14:00 - 17:00)** 
+- 📌 **July 24th (14:00 - 17:00)** 
 - Paper: [Packaging re-search artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/)
 - Where: MsTeams (please email <info@readthelod.org> for registration)  
 - Special guest: **Stian Soiland-Reyes** 
 - Meeting Minutes: [2023-07-24](https://hackmd.io/WA_uzagnTqKzEVItdpoPcw) 
 
 **Fair Signposting**
-- :pushpin: **August 21st (14:00 - 17:00)**
+- 📌 **August 21st (14:00 - 17:00)**
 - Paper: [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html) 
 - Where: MS Teams (please email <info@readthelod.org> for registration)  
 - Special guest: **Herbert Van de Sompel**
@@ -44,7 +44,7 @@ Here are the details of the sessions:
 | [2023-02-13](/readingclubs/ReadtheLOD%202023-02-13) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) |  [Linked Data Notifications: A Resource-Centric Communication Protocol, Sarven Capadisli et al.](https://csarven.ca/linked-data-notifications#i-20161219125430) | 
 | [2023-04-20](/readingclubs/ReadtheLOD 2023-04-24) | [Online](https://vliz.be/nl/hoe-vliz-bereiken) | Are We Better Off With Just One Ontology on the Web? by Haller et al. |
 
-#### Meeting Minutes :page_with_curl:
+#### Meeting Minutes 📃
  Feel free to view our previous meeting minutes by clicking on each meeting date. 
 
 #### Join our mailing list! 📢
