@@ -1,9 +1,9 @@
 
 ---
 layout: page
-title: 📖 Reading clubs
+title: Reading clubs
 subtitle: When & where
-permalink: /readingclubs
+permalink: /readingclubs/
 ---
 
 ### Planning timeline of the next reading club
