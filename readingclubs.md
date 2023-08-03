@@ -36,6 +36,7 @@ Here are the details of the sessions:
 - Paper: [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html) 
 - Where: MS Teams (please email <info@readthelod.org> for registration)  
 - Special guest: **Herbert Van de Sompel**
+- Meeting Minutes: [2023-08-21](https://hackmd.io/@Jgoley/SJhqiAuj3/edit)
 
 #### Previous Reading Clubs 📚
 
