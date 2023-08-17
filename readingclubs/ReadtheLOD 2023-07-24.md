@@ -4,7 +4,6 @@
 1. <a href="#Meta">Meta</a>
 1. <a href="#Understanding">Understanding the paper</a>
 1. <a href="#Critique">Critique</a>
-1. <a href="#Expectations">Meeting expectations</a>
 1. <a href="#Application">Applying the Knowledge</a>
 1. <a href="#AOB">Any other business</a>
 
