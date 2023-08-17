@@ -10,8 +10,9 @@
 
 ## <a name="Meta">Meta</a>
 * 4th Reading Club gathering of [readthelod](https://readthelod.org/)
-* Paper Discussed: [**Packaging research artefacts with RO-Crate**](https://s11.no/2022/phd/ro-crate/) \
- <https://doi.org/10.3233/DS-210053>
+* Paper Discussed: [**Packaging research artefacts with RO-Crate**](https://s11.no/2022/phd/ro-crate/)
+  - <https://doi.org/10.3233/DS-210053>
+    
   - [RO-Crate specifications](https://www.researchobject.org/ro-crate/1.1/)
   - [RO-Crate website](https://www.researchobject.org/ro-crate/)
 * Date: July 24th 2023
