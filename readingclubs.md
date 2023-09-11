@@ -14,7 +14,9 @@ permalink: /readingclubs
 
 #### Next Reading club 📕
 
-After wrapping up **Read The LOD-Summer-of-Linked-Research-Data** stay tuned for upcoming annoucments! 
+After wrapping up **Read The LOD-Summer-of-Linked-Research-Data** we will now hold our end of the year meeting in November. We invite members to complete the [Doodle](https://doodle.com/meeting/organize/id/eVQ31KWd) by the end of September. Polls are now open for voting on the next Read the LOD paper. 
+
+The annual Read the LOD report is now being drafted. Feedback from our members is greatly appreciated to improve the session in 2024! Please take a moment to complete the [questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftFk0Y2oFsgF3SinKwiVI_mNvbdPBKZ8sDXsi1hltNKPkPMQ/viewform?usp=sf_link).
   
 
 #### Previous Reading Clubs 📚
