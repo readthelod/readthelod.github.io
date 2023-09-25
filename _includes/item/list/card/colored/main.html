@@ -1,0 +1,31 @@
+<!-- TODO clean up
+  why is this distinct from the block/colored?
+-->
+
+<div class="col-12 field__item">
+  <div class="pb-6 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
+    <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+      <div class="row field__items">
+        <div class="col-12 field__item">
+          <div class="paragraph paragraph--type--block paragraph--view-mode--default">
+            <div class="field field--name-field-block field--type-block-field field--label-hidden field__items">
+              <div class="views-element-container block block-views block-views-blockjobs-block-jobs-promoted"
+                   id="block-views-block-jobs-block-jobs-promoted">
+                <h2>{{ include.title }}</h2>
+                <div>
+                  <div class="promoted-jobs view view-jobs view-id-jobs view-display-id-block_jobs_promoted ">
+                    <div class="view-content">
+                      {% for item in include.items %}
+                        {% include item/list/card/colored/item.html item=item %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="col-12 field__item">
+  <div class="background-light-2 container-full-width pb-6 pt-6 paragraph paragraph--type--container paragraph--view-mode--default">
+    <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+      <div class="row field__items">
+        <div class="col-12 field__item">
+          <div  class="ticker-count-3 ticker-autoplay ticker-nav paragraph paragraph--type--ticker paragraph--view-mode--default">
+            <div class="ticker-items field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+              <div class="field__items">
+                {% for item in include.data.items %}
+                  {% include light_bg_block/item.html item=item %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

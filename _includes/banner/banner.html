@@ -1,0 +1,95 @@
+{% if include.banner.description %}
+<div class="col-12 field__item">
+    <div class="paragraph paragraph--type--hero paragraph--view-mode--default">
+      <div class="hero-container">
+        <div
+          class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+          <article class="media media--type-video media--view-mode-hero">
+            {% assign media_object = include.banner.media | default:"/assets/media/video/Homepage_website_SimonStevin.mp4" %}
+            {% if media_object contains '.mp4' %}
+                <video autoplay="autoplay" loop="loop" muted="muted" width="640" height="480">
+                    <source src="{{ media_object | relative_url }}" type="video/mp4" />
+                </video>
+            {% else %}
+                <img loading="lazy" src="{{ media_object | relative_url }}"
+                    width="640" height="480" alt="{{ include.banner.title}}"
+                    title="{{ include.banner.title}}" typeof="foaf:Image"
+                    class="image-style-medium-cropped"
+                />
+            {% endif %}
+          </article>
+        </div>
+        <div
+          class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items grayoverlay">
+          <div class="field__item">
+            <h2 class="white">{{ include.banner.title}}</h2>
+            {% if include.banner.description %}
+            <p>{{ include.banner.description }} </p>
+            {% endif %}
+            {% if include.banner.clickthrough_url and include.banner.clickthrough_text %}
+            <p><a class="more-link" href="{{ include.banner.clickthrough_url}}"
+              >{{ include.banner.clickthrough_text }}</a>
+            </p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+{% else %}
+<div class="col-12 field__item">
+  <div class="paragraph paragraph--type--hero paragraph--view-mode--default">
+    <div class="hero-container">
+      <div
+        class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+        <article class="media media--type-video media--view-mode-hero">
+          {% assign media_object = include.banner.media | default:"/assets/media/video/Homepage_website_SimonStevin.mp4" %}
+          {% if media_object contains '.mp4' %}
+              <video autoplay="autoplay" loop="loop" muted="muted" width="640" height="480">
+                  <source src="{{ media_object | relative_url }}" type="video/mp4" />
+              </video>
+          {% else %}
+              <img loading="lazy" src="{{ media_object | relative_url }}"
+                  width="640" height="480" alt="{{ include.banner.title}}"
+                  title="{{ include.banner.title}}" typeof="foaf:Image"
+                  class="image-style-medium-cropped"
+              />
+          {% endif %}
+        </article>
+      </div>
+      <div
+        class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items grayoverlay">
+        <div class="field__item">
+          <h2 class="white">{{ include.banner.title}}</h2>
+          {% if include.banner.quotes %}
+          
+          <p id="quote"></p>
+          <p id="clickthrough_text"></p>
+          <script>
+            var quotes = {{ include.banner.quotes | jsonify }};
+            var length = quotes.length;
+            //based on unix time get a random number between 0 and length
+            var random = Math.floor(Math.random() * length);
+            //get the quote
+            var quote = quotes[random].title;
+            //get the clickthrough text
+            var clickthrough_text = quotes[random].clickthrough_text;
+            //get the clickthrough url
+            var clickthrough_url = quotes[random].clickthrough_url;
+            //set the clickthrough url
+            document.getElementById("clickthrough_text").innerHTML = "<a href='" + clickthrough_url + "'>" + clickthrough_text + "</a>";
+            //set the quote
+            document.getElementById("quote").innerHTML = quote;
+          </script>
+          {% endif %}
+          {% if include.banner.clickthrough_url and include.banner.clickthrough_text %}
+          <p><a class="more-link" href="{{ include.banner.clickthrough_url}}"
+            >{{ include.banner.clickthrough_text }}</a>
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%  endif %}

@@ -1,0 +1,33 @@
+<div class="views-row">
+    <article role="article" about="{{ include.card.clickthrough_url }}" class="node node--type-news node--promoted node--view-mode-teaser">
+        <div class="node__content">
+            <div class="before">
+                <a href="{{ include.card.clickthrough_url }}" hreflang="nl" target="_blank"><img loading="lazy" 
+                    src="{{ include.card.image | relative_url }}"
+                    width="600" height="450" alt="{{ include.card.title }}" title="{{ include.card.title }}"
+                    typeof="foaf:Image" class="image-style-medium-cropped" />
+                </a>
+            </div>
+            <div class="main">
+                <div class="main-inner">
+                    {% for tag in include.card.tags %}
+                      {% if tag %}
+                    <a href="#" class="field__news_teaser">{{tag}}</a>
+                      {% endif %}
+                    {% endfor %}
+                    <h3>
+                        <a href="{{ include.card.clickthrough_url }}" hreflang="nl" target="_blank"><span
+                            class="field field--name-title field--type-string field--label-hidden"
+                            >{{ include.card.title }}</span>
+                        </a>
+                    </h3>
+                    <div class="node-date">{{ include.card.date }}</div>
+
+                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__articles">
+                        {{ include.card.description }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

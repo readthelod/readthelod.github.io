@@ -1,0 +1,25 @@
+<div class="col-12 field__item">
+    <div class="container-full-width pb-5 pt-5 paragraph paragraph--type--container paragraph--view-mode--default"
+        style="background-image: url({{ include.data.image | default: '/assets/media/img/placeholder.png' | relative_url }})">
+        <div
+            class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+            <div class="row field__items">
+                <div class="col-xl-6 offset-xl-6 col-xxl-4 offset-xxl-8 field__item">
+                    <div class="background-white pb-4 pt-4 px-4 paragraph paragraph--type--basic-text paragraph--view-mode--default">
+                        <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                            <h3>{{ include.data.title }}
+                            </h3>
+                            <p>{{ include.data.description }} <!--TODO: add min height to this card-->
+                            </p>
+                            {% if include.data.clickthrough_text and include.data.clickthrough_url %}
+                            <p><a class="more-link" href="{{ include.data.clickthrough_url}}"
+                                >{{ include.data.clickthrough_text}}</a>
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

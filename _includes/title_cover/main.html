@@ -1,0 +1,24 @@
+<section class="main-container-above">
+    <div class="region region-content-above">
+        {%- if include.cover -%}
+        <div id="block-vlizdynamicherotitle" class="block block-vliz-helpers block-vliz-dynamic-hero-title-block">
+
+            <div class="page-title-hero-container">
+                <div class="field field--name-field-hero-title field--type-string field--label-hidden field__items">
+                    {{ include.title }}
+                </div>
+
+                <div class="hero-media field field--name-field-hero-background field--type-entity-reference field--label-hidden field__items"
+                    {%if include.opacity %}style="opacity: {{include.opacity}}; " {% endif %}>
+                    <img src="{{ include.cover }}" alt="{{ include.title }}" loading="lazy" typeof="foaf:Image"
+                        width="2736" height="572">
+                </div>
+
+            </div>
+
+        </div>
+        {%- else -%}
+        <h2 class="page-title">{{ include.title }}</h2>
+        {%- endif -%}
+    </div>
+</section>

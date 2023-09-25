@@ -1,0 +1,44 @@
+<div class="col-12 field__item">
+    <div
+        class="container-align-items-center pb-4 pt-5 paragraph paragraph--type--container paragraph--view-mode--default">
+        <div
+            class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+            <div class="row field__items">
+                <div class="col-lg-6 col-xl-6 offset-xl-1 field__item">
+                    <div
+                        class="media-field-rounded-top-right paragraph paragraph--type--media paragraph--view-mode--default">
+                        <div
+                            class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+                            <article class="media media--type-image media--view-mode-large">
+                                <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                                    <img loading="lazy" src="{{ include.item.image | relative_url }}"
+                                        width="1000" height="666" alt="{{data.title}}" typeof="foaf:Image"
+                                        class="image-style-large-1000" />
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 field__item">
+                    <div class="text-add-swoosh paragraph paragraph--type--basic-text paragraph--view-mode--default">
+                        <div
+                            class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                            <h2 class="highlighted-heading">
+                                {{ include.item.title }}
+                            </h2>
+
+                            <p>{{ include.item.description }}</p>
+                            {% if include.item.clickthrough_text and include.data.clickthrough_url %}
+                            <p><a class="more-link" href="{{ include.item.clickthrough_url }}"
+                                >{{ include.item.clickthrough_text }}</a>
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

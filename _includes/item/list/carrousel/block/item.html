@@ -1,0 +1,22 @@
+<div class="field__item">
+  <div class="background-white pb-4 pt-4 px-4 text-add-box-shadow paragraph paragraph--type--basic-text paragraph--view-mode--default">
+    <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+      <div class="included-item">
+        <h4 class="highlighted-heading text-align-center">
+          {{ include.item.title }}
+        </h4>
+
+        <p class="paragraph-small text-align-center">
+          {{ include.item.description }}
+        </p>
+
+        {% if include.item.clickthrough_url %}
+        <p class="paragraph-brand-color text-align-center">
+          <a class="more-link-colored"
+            href="{{ include.item.clickthrough_url }}">{{ include.item.clickthrough_text }}</a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

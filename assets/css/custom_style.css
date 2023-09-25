@@ -1,0 +1,167 @@
+
+/* make a few vars */
+:root {
+    --vliz-color-text-brand: #354D9B;
+    --vliz-color-text-brand-hover: #283a75;
+    --vliz-color-text: #2f2d2d;
+    --vliz-color-text-invert: #ffffff;
+    --vliz-color-text-invert-hover: #e6e6e6;
+    --vliz-color-text-light: #31b7bc;
+    --vliz-color-link: #707070;
+    --vliz-color-link-hover: shift-color(#707070, 20%);
+    --vliz-color-link-highlight: #6bbf76;
+    --vliz-color-link-highlight-hover: #59b766;
+    --vliz-color-text-brand: #354d9b;
+    --vliz-color-text-brand-hover: #283a75;
+    --vliz-color-text-gray: #707070;
+    --vliz-color-background-primary: white;
+    --vliz-color-background-box: white;
+    --vliz-color-background-light-1: #f7c97c;
+    --vliz-color-background-light-2: #fff7d0;
+    --vliz-color-background-light-3: #65c9cd;
+    --vliz-color-background-light-4: #e2e2e2;
+    --vliz-color-background-light-5: #ff4444;
+    --vliz-color-background-light-3-opace: #65c9cd80;
+    --vliz-color-background-light-4-opace: #e2e2e280;
+    --vliz-color-background-light-5-opace: #ff444480;
+    --vliz-color-background-dark-1: #465daa;
+    --vliz-color-background-dark-2: #354d9b;
+}
+
+.grayoverlay,
+.light-one-box,
+.light-two-box,
+.light-three-box {
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.light-one-box  {
+    background-color: var(--vliz-color-background-light-1) !important;
+}
+
+.light-two-box {
+    background-color: var(--vliz-color-background-light-2) !important;
+}
+
+.light-three-box {
+    background-color: var(--vliz-color-background-light-3) !important;
+}
+
+img.emoji {
+    display: inline;
+}
+
+/* indent ul and ol items more to the left */
+ul, ol {
+    padding-left: 2rem !important;
+}
+
+/* change colors of h1 , h2, h3, h4 to color text brand*/
+h1, h2, h3, h4 {
+    color: var(--vliz-color-text-brand) !important;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.blue {
+    color: var(--vliz-color-text-brand) !important;
+}
+
+/* support images embeded inline in the content of articles */
+article img.image-style-content-embed, 
+article img.image-style-content-center, 
+article .presentation-content {
+    margin: 1em;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+article img.image-style-content-embed {
+    max-width: 33%;
+    float: right;
+    display: inline;
+}
+article img.image-style-content-center {
+    margin: auto;
+}
+
+
+/* style blockquotes making variations of blockquote being block-info block-warning block-danger*/
+article blockquote {
+    margin: 0;
+    margin-bottom: 0.85em;
+    padding: 0 15px;
+}
+article blockquote h5 {
+    size: 1em;
+}
+article blockquote.block-warning {
+    background-color: var(--vliz-color-background-light-2);
+    border-left: 4px solid var(--vliz-color-background-light-1);
+}
+article blockquote.block-warning {
+    background-color: var(--vliz-color-background-light-2);
+    border-left: 4px solid var(--vliz-color-background-light-1);
+}
+article blockquote.block-tip {
+    background-color: var(--vliz-color-background-light-3-opace);
+    border-left: 4px solid var(--vliz-color-background-light-3);
+}
+article blockquote.block-info {
+    background-color: var(--vliz-color-background-light-4-opace);
+    border-left: 4px solid var(--vliz-color-background-light-4);
+}
+article blockquote.block-danger {
+    color: var(--vliz-color-text-invert);
+    /*give text black edge*/
+    text-shadow: 0 0 1px #000;
+    background-color: var(--vliz-color-background-light-5-opace);
+    border-left: 4px solid var(--vliz-color-background-light-5);
+}
+
+/* make titles on cover stand out even if the background is white-ish*/
+.page-title-hero-container div.field--name-field-hero-title {
+    text-shadow: rgba(0, 0, 0, 1) 0 0 10px;
+}
+
+
+/* make img inside item-lists not cover the space */
+.included-item .before img { 
+    object-fit: contain !important;
+}
+
+
+/* make that social footer way more subtle */
+span.social-icons a {
+    display: inline-block;
+    /* background-color: white; */
+    color: var(--vliz-color-background-dark-1);
+    /* border-radius: 50%; */
+    width: 1.2em;
+    height: 1.2em;
+    /* line-height: 50px; */
+    /* overflow: hidden; */
+    /* text-align: center; */
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table thead {
+  background: #F7C97C;
+}
+table thead th {
+  font-weight: bold;
+}

@@ -1,0 +1,56 @@
+
+<div class="col-12 field__item">
+    <div class="pb-4 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
+        <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+            <div class="row field__items included-item-list">
+              {% for pub in include.items %}
+              <div class="col-lg-11 field__item">
+                  <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+                      <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+                          <h5>
+                              <a href="{{pub.clickthrough_url}}">
+                                  {{pub.title}} 
+                              </a>
+                          </h5>
+                          <p class="blue">
+                          <b>
+                              {% for author in pub.authors %}
+                                {% if forloop.last %}
+                                  {{author.name}} 
+                                {% else %}
+                                  {{author.name}};
+                                {% endif %}
+                              {% endfor %}
+                          </b>
+                          </p>
+                          {% for tag in pub.tags %}
+                              {% if tag %}
+                                  <a href="#" class="field__news_teaser">{{ tag }}</a>
+                              {% endif %}
+                          {% endfor %}
+                          <p>
+                              {{pub.description}}
+                          </p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-1 field__item">
+                  <div class="row">
+                      {% if pub.documents %}
+                      {% for file in pub.documents %}
+                      <div class="col-lg-12 field__item gy-3">
+                          <a class="basic-button" href="{{file.url}}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
+                              <span class="fa fa-download"></span>
+                          </a>
+                      </div>
+                      {% endfor %}
+                      {% endif %}
+                  </div>
+              </div>
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,3 +1,9 @@
+---
+layout: default
+curly: true
+permalink: /reading-club/ReadtheLOD 2023-04-24
+---
+
 # ReadtheLOD 2023-04-24
 
 ## Index

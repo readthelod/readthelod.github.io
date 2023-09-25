@@ -1,3 +1,9 @@
+---
+layout: default
+curly: true
+permalink: /reading-club/20221122-is-the-lod-cloud-at-risk-of-becoming-a-museum-for-datasets
+---
+
 # ReadtheLOD 2022-11-22
 
 ## Index

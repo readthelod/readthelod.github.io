@@ -1,16 +1,31 @@
-- name: Home
-  link: /
-  dropdown: 
-    - name: About
-      link: /about
-    - name: Reading list
-      link: /readinglist
-    - name: Reading clubs
-      link: /readingclubs
-    - name: Partners
-      link: /partners
-    - name: Members
-      link: /members
-
-
-
+- title: About
+  url: "#"
+  items:
+    - title: Who
+      url: /about#who
+    - title: What
+      url: /about#what
+    - title: Why
+      url: /about#why
+- title: Reading club info
+  url: "#"
+  items:
+    - title: Reading list
+      url: /reading-list/
+    - title: Reading club
+      url: /reading-club/
+- title: Members
+  url: "#"
+  items:
+    - title: Join the club
+      url: /join/
+    - title: Members
+      url: /members/
+- title: Partners
+  url: "#"
+  items:
+    - title: Meet the partners
+      url: /partners/
+    - title: Become a partner
+      url: /partners#join
+      
