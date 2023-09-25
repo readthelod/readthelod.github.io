@@ -1,35 +1,35 @@
-- name: 🎓 Aad Versteden
-  affiliation: redpencil
-  mail: aad.versteden@redpencil.io
+- title: 🎓 Aad Versteden
+  description: redpencil
+  clickthrough_url: aad.versteden@redpencil.io
 
-- name: 🎓 Niels Vandekeybus
-  affiliation: redpencil
-  mail: niels.vandekeybus@redpencil.io
+- title: 🎓 Niels Vandekeybus
+  description: redpencil
+  clickthrough_url: niels.vandekeybus@redpencil.io
 
-- name: 🎓 Marc Portier
-  affiliation: VLIZ
-  mail: marc.portier@vliz.be
+- title: 🎓 Marc Portier
+  description: VLIZ
+  clickthrough_url: marc.portier@vliz.be
 
-- name: 🎓 Laurian Van Maldeghem
-  affiliation: VLIZ
-  mail: laurian.van.maldeghem@vliz.be
+- title: 🎓 Laurian Van Maldeghem
+  description: VLIZ
+  clickthrough_url: laurian.van.maldeghem@vliz.be
 
-- name: 🎓 Kushagra Singh Bisen
-  affiliation: IDLab-UGent
-  mail: kushagrasingh.bisen@ugent.be
+- title: 🎓 Kushagra Singh Bisen
+  description: IDLab-UGent
+  clickthrough_url: kushagrasingh.bisen@ugent.be
 
-- name: 🎓 Rory Meyer
-  affiliation: VLIZ
-  mail: rory.meyer@vliz.be
+- title: 🎓 Rory Meyer
+  description: VLIZ
+  clickthrough_url: rory.meyer@vliz.be
 
-- name: 🎓 Geert Limpens
-  affiliation: District09
-  mail: geert.limpens@district09.gent
+- title: 🎓 Geert Limpens
+  description: District09
+  clickthrough_url: geert.limpens@district09.gent
 
-- name: 🎓 Joanna Goley
-  affiliation: VLIZ
-  mail: joanna.goley@vliz.be
+- title: 🎓 Joanna Goley
+  description: VLIZ
+  clickthrough_url: joanna.goley@vliz.be
   
-- name: 🎓 Cedric Decruw
-  affiliation: VLIZ
-  mail: cedric.decruw@vliz.be
+- title: 🎓 Cedric Decruw
+  description: VLIZ
+  clickthrough_url: cedric.decruw@vliz.be

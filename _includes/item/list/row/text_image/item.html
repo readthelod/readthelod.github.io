@@ -1,0 +1,52 @@
+{% assign col_width_text = include.item.text_col_width | default:9 %}
+
+{%if include.item.image %}
+<div class="col-lg-{{col_width_text}} field__item">
+    <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+        <div
+            class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+            <p>
+                <a href="{{include.item.clickthrough_url}}">
+                    {{include.item.title}} : 
+                </a>
+                {{include.item.description}}
+            </p>
+            <!-- todo handle below spacing via css -->
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+<div class="col-lg-{{ 12 | minus:col_width_text }} field__item">
+    <div class="paragraph paragraph--type--media paragraph--view-mode--default">
+        <div class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+            <article class="media media--type-image media--view-mode-large">
+                <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                    <img loading="lazy"
+                        src="{{include.item.image | relative_url}}"
+                        alt="{{ include.item.title }}" 
+                        typeof="foaf:Image" 
+                        class="image-style-large-1000" 
+                        style="width: {{ 12 | minus:col_width_text | times:70}}px; display:block;margin:auto;vertical-align:middle;max-width:300px;"
+                        >
+                </div>
+            </article>
+
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="col-lg-12 offset-lg-0 field__item">
+    <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+        <div
+            class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+            <p>
+                <a href="{{include.item.clickthrough_url}}">
+                    {{include.item.title}}
+                </a>
+                {{include.item.description}}
+            </p>
+        </div>
+    </div>
+</div>
+{% endif %}

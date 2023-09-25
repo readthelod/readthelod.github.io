@@ -1,7 +1,10 @@
 ---
-layout: members
-title: The LOD lot
-subtitle: All participants of LOD reading clubs
-participant-type: members
-permalink: /members
+layout: default
+curly: true
+permalink: /members/
 ---
+
+{% include item/list/card/colored/main.html 
+    title="Members"
+    items=site.data.members
+%}

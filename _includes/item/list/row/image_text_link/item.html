@@ -1,0 +1,64 @@
+<div class="col-lg-1 field__item">
+    <div class="paragraph paragraph--type--media paragraph--view-mode--default">
+        <div class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
+            <!-- todo -- it feels like article should not be here  
+            <article class="media media--type-image media--view-mode-large">
+            -->
+                <div class="field field--name-field-media-image field--type-image field--label-hidden field__items">
+                    <img loading="lazy"
+                        src="{{include.item.image | relative_url}}"
+                        alt="{{ include.item.title }}" typeof="foaf:Image" class="image-style-large-1000" 
+                    >
+                        <!--  todo remove
+                        width="594" height="126"
+                        -->
+                </div>
+            <!--  todo remove
+            </article>
+            -->
+        </div>
+    </div>
+</div>
+<div class="col-lg-10 field__item">
+    <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+        <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+            <h5>
+                <a href="{{include.item.clickthrough_url}}">
+                    {{include.item.title}} 
+                </a>
+            </h5>
+            {% for tag in include.item.tags %}
+                {% if tag %}
+                    <a href="#" class="field__news_teaser">{{ tag }}</a>
+                {% endif %}
+            {% endfor %}
+            <p>
+                {{include.item.description}}
+            </p>
+            <!-- These are here to have extra whitespace between element blocks, can be adjusted for more / less whitespace -->
+            <!-- todo should be done through class + css -->
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+<div class="col-lg-1 field__item">
+    <div class="row">
+        {% if item.icon_url %}
+        {% if item.clickthrough_url %}
+        <div class="col-lg-12 field__item gy-3">
+        <a class="basic-button" href="{{ item.clickthrough_url }}" target="_blank" rel="noopener noreferrer" >
+            <i class="fa fa-link"></i>
+        </a>
+        </div>
+        {% endif %}
+        {% for lnk in item.icon_url %}
+        <div class="col-lg-12 field__item gy-3">
+            <a class="basic-button" href="{{ lnk[1] }}" target="_blank" rel="noopener noreferrer" style="margin-right: 5px;">
+                <span class="fa fa-{{lnk[0]}}"></span>
+            </a>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>

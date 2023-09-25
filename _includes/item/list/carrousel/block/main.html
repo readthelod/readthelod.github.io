@@ -1,0 +1,22 @@
+<div class="col-12 field__item">
+  <div class="background-light-2 container-full-width pb-5 pt-5 paragraph paragraph--type--container paragraph--view-mode--default">
+    <h2 class="container-title field field--name-field-title field--type-string field--label-hidden field__items">
+      {{ include.title }}
+    </h2>
+    <div class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+      <div class="row field__items">
+        <div class="col-12 field__item">
+          <div class="ticker-count-3 ticker-nav paragraph paragraph--type--ticker paragraph--view-mode--default">
+            <div class="ticker-items field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+              <div class="field__items included-item-list">
+                {% for item in include.items %}
+                  {% include item/list/carrousel/block/item.html item=item %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

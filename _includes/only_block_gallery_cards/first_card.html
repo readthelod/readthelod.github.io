@@ -1,0 +1,42 @@
+<div class="attachment attachment-before">
+    <div class="views-element-container">
+        <div class="view-news-promoted-first view view-news view-id-news view-display-id-attachment_1">
+            <div class="view-content">
+                <div class="views-row">
+                    <article role="article" about="{{ include.card.clickthrough_url }}" class="node node--type-news node--promoted node--view-mode-extended-teaser">
+                        <div class="node__content">
+                            <div class="before">
+                                <a href="{{ include.card.clickthrough_url }}" hreflang="nl" target="_blank">
+                                    <img loading="lazy"
+                                        src="{{ include.card.image | relative_url }}"
+                                        width="1000" height="562" alt="{{ card.title }}"
+                                        title="{{ card.title }}" typeof="foaf:Image"
+                                        class="image-style-large-cropped-16-9" />
+                                </a>
+                            </div>
+                            <div class="main">
+                                <div class="main-inner">
+                                    {% for tag in include.card.tags %}
+                                      {% if tag %}
+                                    <a href="#" class="field__news_teaser">{{ tag }}</a>
+                                      {% endif %}
+                                    {% endfor %}
+                                    <h3>
+                                        <a href="{{ include.card.clickthrough_url }}" hreflang="nl" target="_blank"><span
+                                            class="field field--name-title field--type-string field--label-hidden">{{ include.card.title }}</span>
+                                        </a>
+                                    </h3>
+                                    <div class="node-date">{{ card.date }}</div>
+
+                                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__articles">
+                                        {{ include.card.description }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

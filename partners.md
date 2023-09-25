@@ -1,7 +1,9 @@
 ---
-layout: partners
-title: Partners
-subtitle: The institutes making it all possible
-participant-type: partners
-permalink: /partners
+layout: default
+permalink: /partners/
 ---
+
+{% include item/list/card/colored/main.html 
+    title="Partners"
+    items=site.data.partners
+%}

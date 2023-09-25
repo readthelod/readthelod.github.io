@@ -1,0 +1,15 @@
+<div class="field__item">
+  <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
+    <div
+      class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
+      <h2 class="highlighted-heading text-align-center">{{ include.item.title }}</h2>
+      <p class="text-align-center">{{ include.item.description }}</p>
+      {% if include.item.clickthrough_url and include.item.clickthrough_text %}
+      <p class="text-align-center">
+          <a class="more-link" href="{{ include.item.clickthrough_url }}"
+          >{{ include.item.clickthrough_text }}</a>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</div>

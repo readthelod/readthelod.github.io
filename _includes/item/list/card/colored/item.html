@@ -1,0 +1,17 @@
+<div class="views-row">
+    <article role="article" about="{{ include.item.clickthrough_url }}"
+        class="node node--type-jobs node--promoted node--view-mode-teaser">
+        <h2>
+            <a href="{{ include.item.clickthrough_url | relative_url }}" rel="bookmark"><span
+                class="field field--name-title field--type-string field--label-hidden">{{ include.item.title }}</span>
+            </a>
+        </h2>
+        <div class="node__content">
+            <div class="field field--name-field-teaser field--type-string-long field--label-hidden field__items">
+                <p>
+                    {{ include.item.description }}
+                </p>
+            </div>
+        </div>
+    </article>
+</div>

@@ -1,0 +1,40 @@
+<div class="region region-mobile-overlay">
+    <nav role="navigation" aria-labelledby="block-hoofdnavigatie-5-menu" id="block-hoofdnavigatie-5"
+        class="mobile-main-navigation">
+        <h2 class="visually-hidden" id="block-hoofdnavigatie-5-menu">Hoofdnavigatie</h2>
+        <ul class="menu">
+        {% for item in site.data.navigation %}
+        <li class="menu-item menu-item--expanded">
+            <span data-doormat-target="doormat-block-hoofdnavigatie">{{item.title}}</span>
+            <ul class="menu">
+            {% for subitem in item.items %}
+            <li class="menu-item menu-item--expanded">
+                <span data-doormat-target="doormat-block-hoofdnavigatie" >{{subitem.title}}</span>
+                <ul class="menu">
+                {% for subsubitem in subitem.items %}
+                <li class="menu-item menu-item--expanded">
+                    <a href="{{subsubitem.url}}">{{subsubitem.title}}</a>
+                </li>
+                {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+        </ul>
+    </nav>
+    <nav role="navigation" aria-labelledby="block-servicenavigation-2-menu" id="block-servicenavigation-2">
+        <h2 class="visually-hidden" id="block-servicenavigation-2-menu">Service navigation</h2>
+        <!--
+        <ul class="menu">
+        <li class="menu-item">
+            <a href="#contact" data-drupal-link-system-path="node/12127">Contact</a>
+        </li>
+        <li class="menu-item">
+            <a href="#events" data-drupal-link-system-path="events">Events</a>
+        </li>
+        </ul>
+        -->
+    </nav>
+    </div>

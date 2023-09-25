@@ -1,0 +1,13 @@
+<div class="col-sm-6 col-md-4 field__item">
+  <div class="paragraph paragraph--type--image-link paragraph--view-mode--default">
+    <div class="field field--name-field-image field--type-image field--label-hidden field__items">
+      <a href="{{ include.item.clickthrough_url}}"><img loading="lazy"
+        src="{{ include.item.image | default: '/assets/media/img/placeholder.png' | relative_url }}"
+        width="600" height="450" alt="{{ include.item.description }}" typeof="Image"
+        class="image-style-medium-cropped" /></a>
+    </div>
+    <h3 class="field field--name-field-title field--type-string field--label-hidden field__items">
+      <a href="{{ include.item.clickthrough_url}}">{{ include.item.title }}</a>
+    </h3>
+  </div>
+</div>

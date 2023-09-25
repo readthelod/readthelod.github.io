@@ -1,0 +1,12 @@
+<div class="col-12 field__item">
+    <div class="pb-4 pt-4 paragraph paragraph--type--container paragraph--view-mode--default">
+        <div
+            class="field field--name-field-paragraph-container-items field--type-entity-reference-revisions field--label-hidden">
+            <div class="row field__items included-item-list">
+                {% for item in include.items %}
+                    {% include item/list/row/text_image/item.html item=item %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

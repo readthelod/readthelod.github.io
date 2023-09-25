@@ -1,0 +1,34 @@
+<div class="views-row">
+    <article role="article" about="{{include.item.clickthrough_url}}" 
+             class="node node--type-news node--promoted node--view-mode-teaser">
+        <div class="node__content included-item">
+            <div class="before">
+                <a href="{{ include.item.clickthrough_url }}" hreflang="nl" target="_blank"> 
+                    <img loading="lazy" src="{{ include.item.image | relative_url }}"
+                        width="600" height="450" alt="{{ include.item.title }}" title="{{include.item.title}}"
+                        typeof="foaf:Image" class="image-style-medium-cropped" />
+                </a>
+            </div>
+            <div class="main">
+                <div class="main-inner">
+                    {% for tag in include.item.tags %}
+                    <a href="#" class="field__news_teaser">{{tag}}</a>
+                    {% endfor %}
+                    <h3>
+                        <a href="{{ include.item.clickthrough_url }}" hreflang="nl" target="_blank"><span
+                                class="field field--name-title field--type-string field--label-hidden">{{include.item.title}}</span>
+                        </a>
+                    </h3>
+                    {% if include.item.date %}
+                    <div class="node-date">
+                        {{include.item.date}}
+                    </div>
+                    {% endif %}
+                    <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__articles">
+                        {{ include.item.description }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

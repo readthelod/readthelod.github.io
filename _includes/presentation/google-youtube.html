@@ -1,0 +1,25 @@
+{%- comment %}
+Usage:
+    {% include presentation/google-youtube.html
+        key="«short https://youtu.be/{key} identifier from sharing URL»"
+        width="«optional: width in px»"
+        height="«optional: height in px»"
+        starts="«optional: start-point for play offset in seconds»"
+    %}
+------------------------------------------------------------------------------
+{% endcomment -%}
+
+{%- assign w=include.width  | default: 560 %}
+{%- assign h=include.height | default: 315 %}
+{%- assign s=include.starts | default: 0 %}
+
+{%- if include.key %}
+<div class="presentation-content" style="width: {{ w| plus: 12 }}px; height: {{ h | plus: 12 }}px;">
+    <iframe style="width: {{ w }}px" 
+    width="{{ w }}" height="{{ h }}" frameborder="0" 
+    src="https://www.youtube.com/embed/{{ include.key }}?start={{ s }}" 
+    title="YouTube video player" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+</div>
+{% endif %}
