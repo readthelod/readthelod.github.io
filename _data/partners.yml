@@ -1,11 +1,11 @@
-- title: redpencil
-  clickthrough_url: https://redpencil.io/
-  logo: assets/media/img/partners/rpio-logo.svg
-
 - title: Flanders Marine Institute
   clickthrough_url: https://vliz.be
-  logo: assets/media/img/partners/vliz_logo.png
+  image: assets/media/img/partners/vliz_logo.png
+
+- title: redpencil
+  clickthrough_url: https://redpencil.io/
+  image: assets/media/img/partners/rpio-logo.svg
 
 - title: Internet & Data lab
   clickthrough_url: https://idlab.technology/
-  logo: assets/media/img/partners/IDLab-logo.png
+  image: assets/media/img/partners/IDLab-logo.png

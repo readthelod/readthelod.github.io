@@ -1,6 +1,5 @@
 ---
 layout: default
-curly: true
 permalink: /reading-club/
 title: "Reading club"
 ---

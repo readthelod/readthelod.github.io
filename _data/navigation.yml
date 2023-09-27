@@ -17,15 +17,15 @@
 - title: Members
   url: "#"
   items:
-    - title: Join the club
-      url: /join/
     - title: Members
       url: /members/
+    - title: Join the club
+      url: https://github.com/readthelod/readthelod.github.io/edit/main/_data/members.yml
 - title: Partners
   url: "#"
   items:
     - title: Meet the partners
       url: /partners/
     - title: Become a partner
-      url: /partners#join
+      url: https://github.com/readthelod/readthelod.github.io/edit/main/_data/partners.yml
       
