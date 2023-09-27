@@ -2,8 +2,12 @@
     <article role="article" about="{{ include.item.clickthrough_url }}"
         class="node node--type-jobs node--promoted node--view-mode-teaser">
         <h2>
-            <a href="{{ include.item.clickthrough_url | relative_url }}" rel="bookmark"><span
-                class="field field--name-title field--type-string field--label-hidden">{{ include.item.title }}</span>
+            <a 
+            href= "{% if include.item.email %} mailto: {{ include.item.email }}{% else %}{{ include.item.clickthrough_url | relative_url }}{% endif %}"
+            rel="bookmark"
+            ><span
+                class="field field--name-title field--type-string field--label-hidden">{{ include.item.title }}
+            </span>
             </a>
         </h2>
         <div class="node__content">
@@ -12,6 +16,18 @@
                     {{ include.item.description }}
                 </p>
             </div>
+            {% if include.item.image %}
+            <div class="field field--name-field-image field--type-image field--label-hidden field__items">
+                <div class="field__item">
+                    <a href="{{ include.item.clickthrough_url | relative_url }}" rel="bookmark">
+                        <img
+                            src="{{ include.item.image | relative_url }}" 
+                            alt="{{ include.item.title }}"
+                        >
+                    </a>
+                </div>
+            </div>
+            {% endif %}
         </div>
     </article>
 </div>
