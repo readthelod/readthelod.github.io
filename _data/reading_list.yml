@@ -2,11 +2,13 @@
   authors: 
     - name: "Hitzler et al."
   clickthrough_url: "https://cacm.acm.org/magazines/2021/2/250085-a-review-of-the-semantic-web-field/fulltext"
+  description: "Let us begin this review by defining the subject matter. The term Semantic Web as used in this article is a field of research rather than a concrete artifact—in a similar way, say, Artificial Intelligence denotes a field of research rather than a concrete artifact. A concrete artifact, which may deserve to be called The Semantic Web may or may not come into existence someday, and indeed some members of the research field may argue that part of it has already been built. Sometimes the term Semantic Web technologies is used to describe the set of methods and tools arising out of the field in an attempt to avoid terminological confusion. We will come back to all this in the article in some way; however, the focus here is to review the research field."
 
 - title: REST - Chapter 5 of Architectural Styles and the Design of Network-based Software Architectures
   authors: 
     - name: "Roy Fielding"
   clickthrough_url: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+  description: "This chapter introduces and elaborates the Representational State Transfer (REST) architectural style for distributed hypermedia systems, describing the software engineering principles guiding REST and the interaction constraints chosen to retain those principles, while contrasting them to the constraints of other architectural styles. REST is a hybrid style derived from several of the network-based architectural styles described in Chapter 3 and combined with additional constraints that define a uniform connector interface. The software architecture framework of Chapter 1 is used to define the architectural elements of REST and examine sample process, connector, and data views of prototypical architectures."
   tags:
     - Hydra
 
@@ -14,11 +16,24 @@
   authors:
     - name: "Verborgh et al."
   clickthrough_url: https://linkeddatafragments.org/publications/jws2016.pdf
+  description: "Billions of Linked Data triples exist in thousands of RDF knowledge graphs on the Web, but few of those graphs
+can be queried live from Web applications. Only a limited number of knowledge graphs are available in a queryable
+interface, and existing interfaces can be expensive to host at high availability. To mitigate this shortage of live queryable
+Linked Data, we designed a low-cost Triple Pattern Fragments interface for servers, and a client-side algorithm that
+evaluates SPARQL queries against this interface. This article describes the Linked Data Fragments framework to
+analyze Web interfaces to Linked Data and uses this framework as a basis to define Triple Pattern Fragments. We
+describe client-side querying for single knowledge graphs and federations thereof. Our evaluation verifies that this
+technique reduces server load and increases caching effectiveness, which leads to lower costs to maintain high server
+availability. These benefits come at the expense of increased bandwidth and slower, but more stable query execution
+times. These results substantiate the claim that lightweight interfaces can lower the cost for knowledge publishers
+compared to more expressive endpoints, while enabling applications to query the publishers data with the necessary
+reliability."
 
 - title: Linked Data Event Streams
   authors: 
     - name: "Colpaert et al."
   clickthrough_url: https://link.springer.com/chapter/10.1007/978-3-030-74296-6_3
+  description: "Fostering interoperability, Public Sector Bodies (PSBs) maintain datasets that should become queryable as an integrated Knowledge Graph (KG). While some PSBs allow to query a part of the KG on their servers, others favor publishing data dumps allowing the querying to happen on third party servers. As the budget of a PSB to publish their dataset on the Web is finite, PSBs need guidance on what interface to offer first. A core API can be designed that covers the core tasks of Base Registries, which is a well-defined term in Flanders for the management of authoritative datasets. This core API should be the basis on which an ecosystem of data services can be built. In this paper, we introduce the concept of a Linked Data Event Stream (LDES) for datasets like air quality sensors and observations or a registry of officially registered addresses. We show that extra ecosystem requirements can be built on top of the LDES using a generic fragmenter. By using hypermedia for describing the LDES as well as the derived datasets, agents can dynamically discover their best way through the KG, and server administrators can dynamically add or remove functionality based on costs and needs. This way, we allow PSBs to prioritize API functionality based on three tiers: (i) the LDES, (ii) intermediary indexes and (iii) querying interfaces. While the ecosystem will never be feature-complete, based on the market needs, PSBs as well as market players can fill in gaps as requirements evolve."
   tags:
     - LDES standard
     - TREE hypermedia specification
@@ -27,26 +42,31 @@
   authors: 
   - name: "Rabbani et al."
   clickthrough_url: https://kashif-rabbani.github.io/publications/validatingshapes.pdf
+  description: "Knowledge Graphs (KGs) are widely used to represent heterogeneous domain knowledge on the Web and within organizations. Various methods exist to manage KGs and ensure the quality of their data. Among these, the Shapes Constraint Language (SHACL) and the Shapes Expression Language (ShEx) are the two state-ofthe-art languages to define validating shapes for KGs. Since the usage of these constraint languages has recently increased, new needs arose. One such need is to enable the efficient generation of these shapes. Yet, since these languages are relatively new, we witness a lack of understanding of how they are effectively employed for existing KGs. Therefore, in this work, we answer How validating shapes are being generated and adopted? Our contribution is threefold. First, we conducted a community survey to analyze the needs of users (both from industry and academia) generating validating shapes. Then, we cross-referenced our results with an extensive survey of the existing tools and their features. Finally, we investigated how existing automatic shape extraction approaches work in practice on real, large KGs. Our analysis shows the need for developing semi-automatic methods that can help users generate shapes from large KGs."
 
 - title: Adaptive Linked Data-driven Web Components
   authors: 
   - name: "Khalili et al."
   clickthrough_url: http://research.ld-r.org/papers/eswc2016_adaptive-linked-data-driven-web-components.pdf
+  description: "Due to the increasing amount of Linked Data openly published on the Web, user-facing Linked Data Applications (LDAs) are gaining momentum. One of the major entrance barriers for Web developers to contribute to this wave of LDAs is the required knowledge of Semantic Web (SW) technologies such as the RDF data model and SPARQL query language. This paper presents an adaptive componentbased approach together with its open source implementation for creating flexible and reusable SW interfaces driven by Linked Data. Linked Data-driven (LD-R) Web components abstract the complexity of the underlying SW technologies in order to allow reuse of existing Web components in LDAs, enabling Web developers who are not experts in SW to develop interfaces that view, edit and browse Linked Data. In addition to the modularity provided by the LD-R components, the proposed RDF-based configuration method allows application assemblers to reshape their user interface for different use cases, by either reusing existing shared configurations or by creating their proprietary configurations."
 
 - title: Consent Through the Lens of Semantics
   authors: 
   - name: "Kurteva et al."
   clickthrough_url: http://www.semantic-web-journal.net/system/files/swj2751.pdf
+  description: "The acceptance of the GDPR legislation in 2018 started a new technological shift towards achieving transparency. GDPR put focus on the concept of informed consent applicable for data processing, which led to an increase of the responsibilities regarding data sharing for both end users and companies. This paper presents a literature survey of existing solutions that use semantic technology for implementing consent. The main focus is on ontologies, how they are used for consent representation and for consent management in combination with other technologies such as blockchain. We also focus on visualisation solutions aimed at improving individuals consent comprehension. Finally, based on the overviewed state of the art we propose best practices for consent implementation."
 
 - title: Semantic Web for the Working Ontologist
   authors: 
   - name: "Allemang et al."
   clickthrough_url: http://www.kevenlw.name/downloads/Ontologist.pdf
+  description: "This book is about something we call the Semantic Web. From the name, you can probably guess that it is related somehow to the famous World Wide Web (WWW) and that it has something to do with semantics. Semantics, in turn, has to do with understanding the nature of meaning, but even the word semantics has a number of meanings. In what sense are we using the word semantics? And how can it be applied to the Web?"
 
 - title: Study on the readiness of research data and literature repositories to facilitate compliance with the Open Science Horizon Europe MGA requirements
   authors: 
   - name: "Jahn et al."
   clickthrough_url: https://zenodo.org/record/7728016#.ZEoUns5ByUk
+  description: "This report and associated repository inventory represent the output of a study conducted between March and October 2022 by a group of independent experts and commissioned by the European Research Council Executive Agency (ERCEA). In this study we assess and analyse the readiness of research data and literature repositories to facilitate compliance with the Open Science requirements in the Horizon Europe Model Grant Agreement (HE MGA) (European Commission, 2022a)."
   tags:
     - repositories
     - trusted repository
@@ -58,6 +78,7 @@
   authors: 
   - name: "Jeremy Debattista et al."
   clickthrough_url: https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud
+  description: "The Linked Open Data (LOD) cloud has been around since 2007. Throughout the years, this prominent depiction served as the epit-ome or Linked Data and acted as a starting point or many. In this article we perorm a number o experiments on the dataset metadata provided by the LOD cloud, in order to understand better whether the current visualised datasets are accessible and with an open license. Furthermore, we perorm quality assessment o 17 metrics over accessible datasets that are part o the LOD cloud. These experiments were compared with previous experiments per-ormed on older versions o the LOD cloud. The results showed that there was no improvement on previously identifed problems. Based on our fndings, we thereore propose a strategy and architecture or a potential collaborative and sustainable LOD cloud."
   tags:
     - Linked Data
     - LOD cloud
@@ -71,12 +92,14 @@
   authors: 
   - name: "WDQS Search Team"
   clickthrough_url: https://www.wikidata.org/wiki/File:WDQS_Backend_Alternatives_working_paper.pdf
+  description: "The Wikidata Query Service (WDQS) is part of the overall data access strategy for Wikidata. Currently, the service is hosted on two private and two internal load-balanced clusters, where each server in the cluster is running an (open-source) Blazegraph instance, and providing a SPARQL endpoint for query access."
 
 - title: Packaging research artefacts with RO-Crate
   authors: 
   - name: "Soiland-Reyes"
   - name: "Stian, et al."
   clickthrough_url: 
+  description: "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations. An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also enhancing research reproducibility. An RO-Crate for this article11 https://w3id.org/ro/doi/10.5281/zenodo.5146227 is archived at https://doi.org/10.5281/zenodo.5146227."
   tags:
     - Data publishing
     - data packaging
@@ -92,11 +115,13 @@
   - name: "Herbert"
   - name: "Michael L. Nelson"
   clickthrough_url: http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html
+  description: "Over the past fifteen years, our perspective on tackling information interoperability problems for web-based scholarship has evolved significantly. In this opinion piece, we look back at three efforts that we have been involved in that aptly illustrate this evolution: OAI-PMH, OAI-ORE, and Memento. Understanding that no interoperability specification is neutral, we attempt to characterize the perspectives and technical toolkits that provided the basis for these endeavors. With that regard, we consider repository-centric and web-centric interoperability perspectives, and the use of a Linked Data or a REST/HATEAOS technology stack, respectively. We also lament the lack of interoperability across nodes that play a role in web-based scholarship, but end on a constructive note with some ideas regarding a possible path forward."
   
 - title: Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud
   authors: 
   -name: "Jeremy Debattista et al."
   clickthrough_url: https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud
+  description: "The Linked Open Data (LOD) cloud has been around since 2007. Throughout the years, this prominent depiction served as the epit-ome for Linked Data and acted as a starting point or many. Inthis article we perorm a number or experiments on the dataset metadata provided by the LOD cloud, in order to understand betterwhether the current visualised datasets are accessible and with an open license. Furthermore, we perorm quality assessment o 17metrics over accessible datasets that are part o the LOD cloud. These experiments were compared with previous experiments per-ormed on older versions of the LOD cloud. The results showed thattherewasnoimprovementonpreviouslyidentifedproblems.Basedon our fndings, we therefore propose a strategy and architecture or a potential collaborative and sustainable LOD cloud."
   tags:
     - Linked Data
     - LOD cloud
@@ -108,6 +133,7 @@
   authors: 
   - name: "Chaidir Adlan"
   clickthrough_url:
+  description: "The Linked Open Data Cloud (LOD Cloud) is the constellation of available interlinked open datasets which has become one of the biggest repositories on the web. An increasing number of spatial semantically annotated datasets provide a huge potential source of knowledge for data enrichment in a spatial context.Yet, there is lack of information about the structure of the spatial datasets in the LOD Cloud which can discourage the integration efforts. In addition, most of the existing studies of link discovery have yet to exploit spatial information richness (topology and geometry). Thus, a structured way to assess spatial datasets and to integrate linked spatial data is required. This study aims to evaluate the LOD Cloud by assessing the data structure and the representation of linked spatial data, in order to support exploration and integration purposes. To achievethis objective, this study proposes: (i) a workflow for analyzinglinked spatial dataresourcesin the LOD Cloud, which consists of the identification of the linked spatial data sources, strategies for dataset retrieval, pipeline design for data processing, and linked data quality principles and metrics analysis;(ii) a review of linked data visualization systems, which includes an assessment of the current LOD Cloud Diagram based on expert opinion with respect to key requirements for visual representationandanalytics for linked data consumption; and(iii) a workflow for linked spatial data integration.The main contribution of this thesis is the provision of case studiesof integrating various spatial data sources. We presented two case studies, geometry-based integration using the spatial extension of Silk Link Discovery, and toponym-based integration using Similarity Measure. The datasets of Basisregistratie Topografie(BRT) Kadaster, Natura2000, and Geonames were used for the data integration. The results of the studyinclude: (i) astructured way to consume and extract spatial information from linked dataresources. In this thesis, we proposed one metric to assess linked spatial data, namelythe existence of geospatial ontology –vocabulary in the linked dataresources;(ii) identification of suitable visualization element for exploration and discovery, especially for spatial data. The top-level relationship (overview) visualization is potentially facilitating an effective datasets discovery and also able to expose the spatial content and relationship in a sensible way. This study discovered that the linkset concept in the level of the dataset, subset, and distribution could be used as basis information for overview visualization; and finally, (iii) findings of spatial components (geometry and toponym) that can be used as important “hook” for integrating different datasets. The commonlyused geospatial ontology and vocabulary also enable semantic interoperability to support data integration."
   tags:
     - SDI (Spatial Data Infrastructure)
     - Semantic Web
@@ -118,6 +144,7 @@
   authors: 
   - name: "Adam Leadbetter et al."
   clickthrough_url: https://ieeexplore.ieee.org/document/7840943
+  description: "In August 2015, a new seafloor observatory was deployed in Galway Bay, Ireland. The sensors on the observatory platform are connected by fibre-optic cable to a shore station, where a broadband connection allows data transfer to the Marine Institute's data centre. This setup involved the development of a new data acquisition system which takes advantage of open source streaming data solutions developed in response to the Big Data paradigm, in particular the Velocity aspect. This activity merges concepts from the arenas of both Big Data and Internet of Things where data standardisation is not normally considered. This paper considers the architecture implemented to stream marine data from instrument to end user and offers suggestions on how to standardise these data streams."
   tags:
     - Linked Data
     - Big Data
@@ -127,3 +154,4 @@
   authors: 
   - name: "Kai Eckert"
   clickthrough_url: https://www.academia.edu/74233112
+  description: "The programme also included an invited talk given by Peter Murray-Rust from the University of Cambridge, UK, on the question of “How do we make Scholarship Semantic?”, which is included as the first paper in this volume. It also includes five presentations of polemics, which are not included in this proceedings volume but archived in the Knowledge Blog at http://event.knowledgeblog.org/event/sepublica-2013."
