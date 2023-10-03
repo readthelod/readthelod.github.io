@@ -20,7 +20,7 @@
     {% endif %}
     <meta property="og:type" content="Pagina" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:title" content="{{ page.title | default: page.url }}" />
+    <meta property="og:title" content="{{ page.title | default: site.title }}" />
     <meta property="og:image" content="{{ site.logo }}" />
     {% if site.logo %}
     <link rel="icon" type="image/svg+xml" href="{{site.logo}}">
