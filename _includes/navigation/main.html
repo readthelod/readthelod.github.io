@@ -15,6 +15,9 @@
           "{{ site.base_url }}"
           {% endif %}
            rel="home" title="">
+           {% if site.logo %}
+            <img src="{{ site.logo }}" alt="" width="125px"/>
+            {% else %}
             <svg width="187.046" height="118.179" viewBox="0 0 52.916667 42.333335" version="1.1" id="svg5"
               inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)" sodipodi:docname="VLIZ_LOGO_OpSci.svg"
               xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -51,6 +54,7 @@
                 </g>
               </g>
             </svg>
+            {% endif %}
           </a>
         </div>
       </div>

@@ -15,6 +15,7 @@ plugins:
 base_url: "" # Base URI for your site, e.g. http://example.com/test-repo/ => for development leave empty for gh-pages fill in the name of the repo of not the main gh-pages repo
 title: "Read the LOD" # Title of your site
 share_enabled: false # Enables global share buttons to twitter (X), facebook, printer, email, linkedIn | default true
+logo: "/assets/media/img/partners/rtlp_logo.svg" # Logo used for your site
 social_media:
   - name: "github"
     url: "https://github.com/readthelod"
