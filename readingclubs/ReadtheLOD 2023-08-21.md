@@ -3,7 +3,6 @@ layout: default
 permalink: /reading-club/ReadtheLOD 2023-08-21
 ---
 
-# ReadtheLOD 2023-08-21
 
 ## Index
 1. <a href="#Meta">Meta</a>
