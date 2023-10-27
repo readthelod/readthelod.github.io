@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /reading-club/ReadtheLOD 2023-08-21
+title: ReadtheLOD 2023-08-21
 ---
 
 
