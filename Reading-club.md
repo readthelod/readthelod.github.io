@@ -27,7 +27,7 @@ The annual Read the LOD report is now being drafted. Feedback from our members i
 | [2023-02-13](/reading-club/ReadtheLOD%202023-02-13) | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} |  [Linked Data Notifications: A Resource-Centric Communication Protocol, Sarven Capadisli et al.](https://csarven.ca/linked-data-notifications#i-20161219125430){:target=”_blank”} | 
 | [2023-04-20](/reading-club/ReadtheLOD 2023-04-24){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | Are We Better Off With Just One Ontology on the Web? by Haller et al. | 
 | [2023-07-24](/reading-club/ReadtheLOD 2023-07-24){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Packaging re-search artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/){:target=”_blank”} | 
-| [2023-08-21](reading-club/ReadtheLOD 2023-08-21){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html){:target=”_blank”} |
+| [2023-08-21](/reading-club/ReadtheLOD 2023-08-21){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html){:target=”_blank”} |
 
 #### Meeting Minutes 📃
  Feel free to view our previous meeting minutes by clicking on each meeting date. 
