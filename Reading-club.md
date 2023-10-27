@@ -12,7 +12,9 @@ title: "Reading club"
 
 #### Next Reading club 📕
 
-After wrapping up **Read The LOD-Summer-of-Linked-Research-Data** we will now hold our end of the year meeting in November. We invite members to complete the [Doodle](https://doodle.com/meeting/organize/id/eVQ31KWd){:target=”_blank”} by the end of September. Polls are now open for voting on the next Read the LOD paper. 
+Our last meeting of the year will be held on **November 20th**! 
+- Paper: [Consent Through the Lens of Semantics: State of the Art Survey and Best Practices](https://www.semantic-web-journal.net/system/files/swj2751.pdf)
+- Location: **Online**, if you did not receive an MSteam invite please email <info@readthelod.org>
 
 The annual Read the LOD report is now being drafted. Feedback from our members is greatly appreciated to improve the session in 2024! Please take a moment to complete the [questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftFk0Y2oFsgF3SinKwiVI_mNvbdPBKZ8sDXsi1hltNKPkPMQ/viewform?usp=sf_link){:target=”_blank”}.
   
