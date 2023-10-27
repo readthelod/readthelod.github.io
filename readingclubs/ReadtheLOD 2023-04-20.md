@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /reading-club/ReadtheLOD 2023-04-24
-title: ReadtheLOD 2023-04-24
+permalink: /reading-club/ReadtheLOD 2023-04-20
+title: ReadtheLOD 2023-04-20
 ---
 
 
