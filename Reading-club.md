@@ -12,9 +12,8 @@ title: "Reading club"
 
 #### Next Reading club 📕
 
-Our last meeting of the year will be held on **November 20th**! 
-- Paper: [Consent Through the Lens of Semantics: State of the Art Survey and Best Practices](https://www.semantic-web-journal.net/system/files/swj2751.pdf)
-- Location: **Online**, if you did not receive an MSteam invite please email <info@readthelod.org>
+Our last meeting of the year was held on **November 20th**! 
+Stay tuned for 2024 session announcements! 
 
 The annual Read the LOD report is now being drafted. Feedback from our members is greatly appreciated to improve the session in 2024! Please take a moment to complete the [questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftFk0Y2oFsgF3SinKwiVI_mNvbdPBKZ8sDXsi1hltNKPkPMQ/viewform?usp=sf_link){:target=”_blank”}.
   
@@ -28,6 +27,7 @@ The annual Read the LOD report is now being drafted. Feedback from our members i
 | [2023-04-20](/reading-club/ReadtheLOD 2023-04-20){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | Are We Better Off With Just One Ontology on the Web? by Haller et al. | 
 | [2023-07-24](/reading-club/ReadtheLOD 2023-07-24){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Packaging re-search artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/){:target=”_blank”} | 
 | [2023-08-21](/reading-club/ReadtheLOD 2023-08-21){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html){:target=”_blank”} |
+| [2023-11-20](/readingclubs/ReadtheLOD 2023-11-20.md) | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken) | [Consent Through the Lens of Semantics: State of the Art Survey and Best Practices](https://www.semantic-web-journal.net/system/files/swj2751.pdf) |
 
 #### Meeting Minutes 📃
  Feel free to view our previous meeting minutes by clicking on each meeting date. 
