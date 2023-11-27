@@ -1,3 +1,9 @@
+---
+layout: default
+permalink: /reading-club/ReadtheLOD 2023-11-20
+title: ReadtheLOD 2023-11-20
+---
+
 # ReadtheLOD 2023-11-20
 
 ## Index
