@@ -187,9 +187,56 @@ table thead th {
 .readingclubnotes .question > *:not(h3) {
     border-left: 4px solid var(--vliz-color-text-brand);
     padding-left: 1em;
+    margin-top: 1em; /* Add top margin */
+    margin-bottom: 1em; /* Add bottom margin */
 }
 
 /*when encountering lists , remove the star or number*/
 .readingclubnotes .question li, .readingclubnotes .question li, .readingclubnotes .question ol li, .readingclubnotes .question ul li {
     list-style: none;
+}
+
+/*the next element after .readingclubnotes #index should have a background color*/
+/* if the next element is a ol then disable the list style and put all the links on one line*/
+.readingclubnotes #index + ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.readingclubnotes #index + ol > li:nth-child(odd) {
+    background-color: var(--vliz-color-background-light-1);
+}
+
+.readingclubnotes #index + ol > li:nth-child(even) {
+    background-color: var(--vliz-color-background-light-2);
+}
+
+.readingclubnotes #index + ol > li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Add margin */
+    border-radius: 10px;
+}
+
+/*makt the list item have the clickability of the link inside it*/
+.readingclubnotes #index + ol > li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1em;
+}
+
+/*add hover effect that changes the background color and anchor color text*/
+.readingclubnotes #index + ol > li:hover {
+    background-color: var(--vliz-color-background-light-3);
+}
+
+.readingclubnotes #index + ol > li:hover a {
+    color: var(--vliz-color-text-invert);
 }
