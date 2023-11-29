@@ -165,3 +165,31 @@ table thead {
 table thead th {
   font-weight: bold;
 }
+
+/* some css here to make the readingclubclass look better */
+/* when encountering an h3 element in the readingclubnotes class , put a border around it and all the elements that follow it until the next h3 element */
+.readingclubnotes .question {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/*make the blocks alternate background color between l1,l2,l3*/
+.readingclubnotes .question:nth-child(2n) {
+    background-color: var(--vliz-color-background-light-1);
+}
+.readingclubnotes .question:nth-child(2n+1) {
+    background-color: var(--vliz-color-background-light-2);
+}
+
+/* put a vliz color brand left border on the elements that are inside the question class that are not h3*/
+.readingclubnotes .question > *:not(h3) {
+    border-left: 4px solid var(--vliz-color-text-brand);
+    padding-left: 1em;
+}
+
+/*when encountering lists , remove the star or number*/
+.readingclubnotes .question li, .readingclubnotes .question li, .readingclubnotes .question ol li, .readingclubnotes .question ul li {
+    list-style: none;
+}

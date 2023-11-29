@@ -1,5 +1,5 @@
 ---
-layout: default
+layout:  readingclub
 permalink: /reading-club/ReadtheLOD 2023-04-20
 title: ReadtheLOD 2023-04-20
 ---

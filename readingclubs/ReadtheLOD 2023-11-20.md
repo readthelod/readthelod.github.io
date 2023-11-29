@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: readingclub
 permalink: /reading-club/ReadtheLOD 2023-11-20
 title: ReadtheLOD 2023-11-20
 ---
-
-# ReadtheLOD 2023-11-20
 
 ## Index
 1. <a href="#Meta">Meta</a>
@@ -38,10 +36,11 @@ And honestly don´t see where I will have the time soon to delve into them.
 ### Question (joanna): What is a legal vocabulary.
 
 We read it as refering to a vocabulary that is holding terms that help describe the laws of the land (the lega body) in a machine readable way.
+[Vlaamse codex](https://data.vlaanderen.be/doc/applicatieprofiel/vlaamse-codex/)
 
-Cfr. [Vlaamse codex](https://data.vlaanderen.be/doc/applicatieprofiel/vlaamse-codex/)
-Cfr. [ELI](https://eur-lex.europa.eu/eli-register/about.html) 
-https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eli
+[ELI](https://eur-lex.europa.eu/eli-register/about.html) 
+
+[EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eli)
 
 
 ### Question (mpo): Really unclear if any of the tools in the visualisation section have any rapport to the KG underpinnings of the rest?

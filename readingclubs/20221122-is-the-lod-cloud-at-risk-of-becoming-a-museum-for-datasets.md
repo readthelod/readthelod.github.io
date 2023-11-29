@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: readingclub
 curly: true
 permalink: /reading-club/20221122-is-the-lod-cloud-at-risk-of-becoming-a-museum-for-datasets
 ---
