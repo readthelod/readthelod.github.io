@@ -184,16 +184,33 @@ table thead th {
 }
 
 /* put a vliz color brand left border on the elements that are inside the question class that are not h3*/
-.readingclubnotes .question > *:not(h3) {
+.readingclubnotes .question > *:not(h3, a, ol, li) {
     border-left: 4px solid var(--vliz-color-text-brand);
     padding-left: 1em;
     margin-top: 1em; /* Add top margin */
     margin-bottom: 1em; /* Add bottom margin */
 }
 
-/*when encountering lists , remove the star or number*/
-.readingclubnotes .question li, .readingclubnotes .question li, .readingclubnotes .question ol li, .readingclubnotes .question ul li {
-    list-style: none;
+.readingclubnotes .question >  li {
+    padding-left: 3em;
+    margin-top: 1em; /* Add top margin */
+    margin-bottom: 1em; /* Add bottom margin */
+    /*no dot in front of list*/
+    list-style-type: none;
+    position: relative; /* Add this line */
+}
+
+.readingclubnotes .question >  a {
+    padding-left: 3em;
+    margin-top: 1em; /* Add top margin */
+    margin-bottom: 1em; /* Add bottom margin */
+}
+
+/* Display the counter */
+.readingclubnotes .question > li:before {
+    content: "\270E  ";
+    position: absolute; /* Add this line */
+    left: 0; /* Add this line */
 }
 
 /*the next element after .readingclubnotes #index should have a background color*/
