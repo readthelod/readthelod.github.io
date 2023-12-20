@@ -39,12 +39,6 @@
   clickthrough_url: http://research.ld-r.org/papers/eswc2016_adaptive-linked-data-driven-web-components.pdf
   description: "Due to the increasing amount of Linked Data openly published on the Web, user-facing Linked Data Applications (LDAs) are gaining momentum. One of the major entrance barriers for Web developers to contribute to this wave of LDAs is the required knowledge of Semantic Web (SW) technologies such as the RDF data model and SPARQL query language. This paper presents an adaptive componentbased approach together with its open source implementation for creating flexible and reusable SW interfaces driven by Linked Data. Linked Data-driven (LD-R) Web components abstract the complexity of the underlying SW technologies in order to allow reuse of existing Web components in LDAs, enabling Web developers who are not experts in SW to develop interfaces that view, edit and browse Linked Data. In addition to the modularity provided by the LD-R components, the proposed RDF-based configuration method allows application assemblers to reshape their user interface for different use cases, by either reusing existing shared configurations or by creating their proprietary configurations."
 
-- title: Consent Through the Lens of Semantics
-  authors: 
-  - name: "Kurteva et al."
-  clickthrough_url: http://www.semantic-web-journal.net/system/files/swj2751.pdf
-  description: "The acceptance of the GDPR legislation in 2018 started a new technological shift towards achieving transparency. GDPR put focus on the concept of informed consent applicable for data processing, which led to an increase of the responsibilities regarding data sharing for both end users and companies. This paper presents a literature survey of existing solutions that use semantic technology for implementing consent. The main focus is on ontologies, how they are used for consent representation and for consent management in combination with other technologies such as blockchain. We also focus on visualisation solutions aimed at improving individuals consent comprehension. Finally, based on the overviewed state of the art we propose best practices for consent implementation."
-
 - title: Semantic Web for the Working Ontologist
   authors: 
   - name: "Allemang et al."
@@ -63,60 +57,11 @@
     - open access
     - Horizon Europe
 
-- title: Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud
-  authors: 
-  - name: "Jeremy Debattista et al."
-  clickthrough_url: https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud
-  description: "The Linked Open Data (LOD) cloud has been around since 2007. Throughout the years, this prominent depiction served as the epit-ome or Linked Data and acted as a starting point or many. In this article we perorm a number o experiments on the dataset metadata provided by the LOD cloud, in order to understand better whether the current visualised datasets are accessible and with an open license. Furthermore, we perorm quality assessment o 17 metrics over accessible datasets that are part o the LOD cloud. These experiments were compared with previous experiments per-ormed on older versions o the LOD cloud. The results showed that there was no improvement on previously identifed problems. Based on our fndings, we thereore propose a strategy and architecture or a potential collaborative and sustainable LOD cloud."
-  tags:
-    - Linked Data
-    - LOD cloud
-    - metadata quality
-    - data quality
-    - sustainable services
-  documents: 
-    - url: /reading-club/20221122-is-the-lod-cloud-at-risk-of-becoming-a-museum-for-datasets
-
 - title: WDQS Backend Alternatives working paper
   authors: 
   - name: "WDQS Search Team"
   clickthrough_url: https://www.wikidata.org/wiki/File:WDQS_Backend_Alternatives_working_paper.pdf
   description: "The Wikidata Query Service (WDQS) is part of the overall data access strategy for Wikidata. Currently, the service is hosted on two private and two internal load-balanced clusters, where each server in the cluster is running an (open-source) Blazegraph instance, and providing a SPARQL endpoint for query access."
-
-- title: Packaging research artefacts with RO-Crate
-  authors: 
-  - name: "Soiland-Reyes"
-  - name: "Stian, et al."
-  clickthrough_url: 
-  description: "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations. An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also enhancing research reproducibility. An RO-Crate for this article11 https://w3id.org/ro/doi/10.5281/zenodo.5146227 is archived at https://doi.org/10.5281/zenodo.5146227."
-  tags:
-    - Data publishing
-    - data packaging
-    - FAIR
-    - Linked Data
-    - metadata
-    - reproducibility
-    - research object
-  
-- title: Reminiscing About 15 Years of Interoperability Efforts
-  authors: 
-  - name: "Van de Sompel"
-  - name: "Herbert"
-  - name: "Michael L. Nelson"
-  clickthrough_url: http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html
-  description: "Over the past fifteen years, our perspective on tackling information interoperability problems for web-based scholarship has evolved significantly. In this opinion piece, we look back at three efforts that we have been involved in that aptly illustrate this evolution: OAI-PMH, OAI-ORE, and Memento. Understanding that no interoperability specification is neutral, we attempt to characterize the perspectives and technical toolkits that provided the basis for these endeavors. With that regard, we consider repository-centric and web-centric interoperability perspectives, and the use of a Linked Data or a REST/HATEAOS technology stack, respectively. We also lament the lack of interoperability across nodes that play a role in web-based scholarship, but end on a constructive note with some ideas regarding a possible path forward."
-  
-- title: Is the LOD cloud at risk of becoming a museum for datasets? Looking ahead towards a fully collaborative and sustainable LOD cloud
-  authors: 
-  -name: "Jeremy Debattista et al."
-  clickthrough_url: https://www.academia.edu/65356421/Is_the_LOD_cloud_at_risk_of_becoming_a_museum_for_datasets_Looking_ahead_towards_a_fully_collaborative_and_sustainable_LOD_cloud
-  description: "The Linked Open Data (LOD) cloud has been around since 2007. Throughout the years, this prominent depiction served as the epit-ome for Linked Data and acted as a starting point or many. Inthis article we perorm a number or experiments on the dataset metadata provided by the LOD cloud, in order to understand betterwhether the current visualised datasets are accessible and with an open license. Furthermore, we perorm quality assessment o 17metrics over accessible datasets that are part o the LOD cloud. These experiments were compared with previous experiments per-ormed on older versions of the LOD cloud. The results showed thattherewasnoimprovementonpreviouslyidentifedproblems.Basedon our fndings, we therefore propose a strategy and architecture or a potential collaborative and sustainable LOD cloud."
-  tags:
-    - Linked Data
-    - LOD cloud
-    - metadata quality
-    - data quality
-    - sustainable services
   
 - title: Linked Spatial Data Beyond The Linked Open Data Cloud
   authors: 
