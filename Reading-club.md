@@ -31,6 +31,8 @@ The annual Read the LOD report is now being drafted. Feedback from our members i
 
 #### Meeting Minutes 📃
  Feel free to view our previous meeting minutes by clicking on each meeting date. 
+ ### Annual Reports
+ [Read the LOD 2023](readingclubs/Annual report Read the LOD 2023_final.pdf)
 
 #### Join our mailing list! 📢
 Sign up to receive the latest updates on polls, meetings, and announcements. Subscribe to our newsletter by emailing: <news-subscribe@readthelod.org> or for more information <info@readthelod.org>
