@@ -12,10 +12,8 @@ title: "Reading club"
 
 #### Next Reading club 📕
 
-Our last meeting of the year was held on **November 20th**! 
 Stay tuned for 2024 session announcements! 
 
-The annual Read the LOD report is now being drafted. Feedback from our members is greatly appreciated to improve the session in 2024! Please take a moment to complete the [questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSftFk0Y2oFsgF3SinKwiVI_mNvbdPBKZ8sDXsi1hltNKPkPMQ/viewform?usp=sf_link){:target=”_blank”}.
   
 
 #### Previous Reading Clubs 📚
