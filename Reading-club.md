@@ -12,7 +12,11 @@ title: "Reading club"
 
 #### Next Reading club 📕
 
-Stay tuned for 2024 session announcements! 
+**When**: July 15th 14:00-17:00
+
+**Where**: Online or InnovOcean Campus (Jacobsenstraat 1 - 8400 Oostende)
+
+**Paper**: [Converging on a Semantic Interoperability Framework for the European Data Space for Science, Research and Innovation (EOSC)" by Romain David et al.](https://hal.science/hal-04149754/document) 
 
   
 
