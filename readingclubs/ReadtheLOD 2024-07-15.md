@@ -1,7 +1,7 @@
 ---
 layout: readingclub
-permalink: /reading-club/ReadtheLOD 2023-11-20
-title: ReadtheLOD 2023-11-20
+permalink: /reading-club/ReadtheLOD 2023-07-15
+title: ReadtheLOD 2023-07-15
 ---
 
 ### Next club
