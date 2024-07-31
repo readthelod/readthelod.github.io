@@ -1,6 +1,7 @@
 ---
-title: Untitled
-
+layout: readingclub
+permalink: /reading-club/ReadtheLOD 2023-11-20
+title: ReadtheLOD 2023-11-20
 ---
 
 ### Next club
