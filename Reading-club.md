@@ -12,11 +12,11 @@ title: "Reading club"
 
 #### Next Reading club 📕
 
-**When**: July 15th 14:00-17:00
+**When**: TBD
 
 **Where**: Online or InnovOcean Campus (Jacobsenstraat 1 - 8400 Oostende)
 
-**Paper**: [Converging on a Semantic Interoperability Framework for the European Data Space for Science, Research and Innovation (EOSC)" by Romain David et al.](https://hal.science/hal-04149754/document) 
+**Paper**: TBD
 
   
 
@@ -30,7 +30,7 @@ title: "Reading club"
 | [2023-07-24](/reading-club/ReadtheLOD 2023-07-24){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Packaging re-search artefacts with RO-Crate](https://s11.no/2022/phd/ro-crate/){:target=”_blank”} | 
 | [2023-08-21](/reading-club/ReadtheLOD 2023-08-21){:target=”_blank”} | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken){:target=”_blank”} | [Reminiscing About 15 Years of Interoperability Efforts](http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.print.html){:target=”_blank”} |
 | [2023-11-20](/reading-club/ReadtheLOD 2023-11-20) | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken) | [Consent Through the Lens of Semantics: State of the Art Survey and Best Practices](https://www.semantic-web-journal.net/system/files/swj2751.pdf) |
-| [2024-07-15](https://hackmd.io/s/Hyl3D8fdC) | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken) | [Converging on a Semantic Interoperability Framework for the European Data Space for Science, Research and Innovation (EOSC)" by Romain David et al.](https://hal.science/hal-04149754/document) |
+| [2024-07-15](/readingclubs/ReadtheLOD 2024-07-15) | [Online](https://vliz.be/nl/wie-we-zijn/hoe-ons-bereiken) | [Converging on a Semantic Interoperability Framework for the European Data Space for Science, Research and Innovation (EOSC)" by Romain David et al.](https://hal.science/hal-04149754/document) |
 
 #### Meeting Minutes 📃
  Feel free to view our previous meeting minutes by clicking on each meeting date. 
