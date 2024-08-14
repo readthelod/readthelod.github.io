@@ -12,7 +12,7 @@ title: "Reading club"
 
 #### Next Reading club 📕
 
-**When**: TBD
+**When**: Monday, September 23rd 2024
 
 **Where**: Online or InnovOcean Campus (Jacobsenstraat 1 - 8400 Oostende)
 
